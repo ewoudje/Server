@@ -34,7 +34,7 @@ Commands:
   CREATE_NORMAL:
   - /mw create $1-homeworld normal
   - '[1]/mw load $1-homeworld'
-  - '[1]/wb $1-homeworld set 250 250 spawn'
+  - '[1]/wb $1-homeworld set 500 500 spawn'
   - '[1]/dynmap pause all'
   - '[1]/dmap worldset $1-homeworld title:$1sHomeworld'
   - '[1]/dmap worldset $1-homeworld visible:true'
