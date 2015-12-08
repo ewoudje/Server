@@ -1,0 +1,63 @@
+{
+  "name": "Tauri",
+  "description": "Guarded by the Tau'ri, you do not want to cause trouble here.",
+  "createdAtMillis": 1403098395611,
+  "open": false,
+  "flags": {
+    "PERMANENT": true,
+    "PEACEFUL": true,
+    "INFPOWER": true,
+    "POWERLOSS": false,
+    "PVP": false,
+    "MONSTERS": false,
+    "EXPLOSIONS": false,
+    "FIRESPREAD": false
+  },
+  "perms": {
+    "DOOR": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "BUTTON": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "LEVER": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "CONTAINER": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "TERRITORY": [
+      "LEADER",
+      "MEMBER",
+      "OFFICER"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+name: Universe
+nick: U
+format: '{default}'
+password: ''
+color: GRAY
+distance: 0
+shortcut: false
+verbose: true
+crossworld: true
+muted: false
+worlds: []
+bans: []
+mutes: []
+moderators: []

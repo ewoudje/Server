@@ -1,0 +1,15 @@
+DisplayName = AGM-65 Maverick
+Type = ASMissile
+Power = 40
+Acceleration = 4.0
+Explosion = 6
+Flaming = true
+Sight = MoveSight
+Delay = 260
+ModelBullet = agm65e
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

@@ -1,0 +1,78 @@
+######################################################
+#+--------------------------------------------------+#
+#|                                                  |#
+#|                   UltimateArena                  |#
+#|               Global Configuration               |#
+#|                                                  |#
+#+--------------------------------------------------+#
+######################################################
+
+# By dmulloy2
+#
+# If you get configuration errors, check here:
+# https://github.com/MineSworn/UltimateArena/blob/master/src/main/resources/config.yml
+#
+# Configuration Explanation found here:
+# http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
+#
+# This configuration follows standard YAML procedure, found here:
+# http://yaml.org/
+
+# Whether or not monetary rewards are given upon completion
+# This requires Vault and a compatible economy plugin
+# Input: boolean; default: true
+moneyRewards: true
+
+# Time a player must stand still before joining the arena
+# Enabled - boolean
+# Wait - integer (in seconds)
+joinTimer:
+  enabled: true
+  wait: 3
+  
+# Whether or not the plugin will save inventories
+# Input: boolean; default: true
+saveInventories: true
+
+# Extra output to console
+# Input: boolean; default: false
+debug: false
+
+# Timer XP bar
+# Input: boolean; default: true
+timerXPBar: true
+
+# Class Selection GUI
+# title - Inventory title
+# automatic - Open automatically in lobby
+classSelector:
+  title: "         &l&nSelect a class!&r"
+  automatic: true
+
+# Restrict commands
+# Whether or not to restrict commands
+# See: whitelistedCommands
+# Input: boolean; default: true
+restrictCommands: true
+
+# Whitelisted Commands
+# Commands players can use in arenas
+# # See: restrictCommands
+# Input - List<String>
+whitelistedCommands:
+- "/f c"
+- "/msg"
+- "/r"
+- "/who"
+- "/god off"
+- "/list"
+- "/t"
+- "/tell"
+
+# Global messages
+# Input: boolean; default: true
+globalMessages: true
+
+# Force Respawn
+# Input: boolean; default: false
+forceRespawn: false

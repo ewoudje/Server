@@ -1,0 +1,133 @@
+#   The general configuration for the jobs plugin mostly includes how often the plugin
+# saves user data (when the user is in the game), the storage method, whether
+# to broadcast a message to the server when a user goes up a skill level.
+#   It also allows admins to set the maximum number of jobs a player can have at
+# any one time.
+
+# Default language.  Use your languages two digit ISO 639-1 code, and optionally followed by the ISO-3166-1 country code.
+# Example: en, en_US
+locale-language: en
+# storage method, can be MySQL, sqlite
+storage-method: MySQL
+# Requires Mysql.
+mysql-username: root
+mysql-password: S0ulM@t3
+mysql-hostname: 127.0.0.1:3306
+mysql-database: stargatemc
+mysql-table-prefix: jobs_
+# How often in minutes you want it to save.  This must be a non-zero number
+save-period: 5
+# Should player data be saved on disconnect?
+# Player data is always periodically auto-saved and autosaved during a clean shutdown.
+# Only enable this if you have a multi-server setup, or have a really good reason for enabling this.
+# Turning this on will decrease database performance.
+save-on-disconnect: true
+# Do all players get a message when somone goes up a skill level?
+broadcast-on-skill-up: true
+# Do all players get a message when somone goes up a level?
+broadcast-on-level-up: true
+# Maximum number of jobs a player can join.
+# Use 0 for no maximum
+max-jobs: 3
+# Hide jobs from player if they lack the permission to join the job
+hide-jobs-without-permission: false
+# Option to allow payment to be made when killing mobs from a spawner
+enable-pay-near-spawner: false
+# enable-pay-near-spawner should be enabled for this to work
+# 0.5 means that players will get only 50% exp/money from monsters spawned from spawner
+pay-near-spawner-multiplier: 1.0
+# VIP multiplier to pay for monsters from spawners, this will ignore global multiplier
+# Use jobs.vipspawner permission node for this to be enabled
+VIP-pay-near-spawner-multiplier: 1.0
+# Do you want to pay when players pet kills monster
+# Can be exploited with mob farms if this set to true
+# Optionaly you can give jobs.petpay permission node for specific players/ranks to get paid
+pet-pay: false
+# Option to allow payment to be made in creative mode
+enable-pay-creative: false
+# Adds the Jobs xp recieved to the player's Minecraft XP bar
+add-xp-player: true
+# Modifys chat to add chat titles.  If you're using a chat manager, you may add the tag {jobs} to your chat format and disable this.
+modify-chat: true
+# Changes how often, in seconds, players are paid out.  Default is 5 seconds.
+# Setting this too low may cause tick lag.  Increase this to improve economy performance (at the cost of delays in payment)
+economy-batch-delay: 5
+# Enable async economy calls.
+# Only enable if your economy plugin is thread safe, use with EXTREME caution.
+economy-async: false
+# Server economy acount
+# With this enabled, players will get money from defined user (server account)
+# If this acount dont have enough money to pay for players for, player will get message
+Economy:
+  UseServerAcount: false
+  AcountName: Server
+  # Money gain limit
+  # With this enabled, players will be limited how much they can make in defined time
+  # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
+  Limit:
+    Use: true
+    MoneyLimit: 5000
+    # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
+    TimeLimit: 3600
+    # Delay between announcements about reached money limit
+    # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
+    AnnouncmentDelay: 30
+  Repair:
+    # Do you want to give money for only renaming items in anvil
+    # Players will get full pay as they would for remairing two items when they only renaming one
+    # This is not big issue, but if you want to disable it, you can
+    PayForRenaming: true
+# Experimental mode!.
+# Enable blocks, like ore, protection.
+# Only enable if you want to protect block from beying moved by pistons.
+use-block-move-protection: false
+# Experimental mode!.
+# Enable blocks timer protection.
+# Only enable if you want to protect block from beying broken to fast.
+use-block-timer: false
+# Breeder finder.
+# If you are not using breeding payment, you can disable this to save little resources. Really little.
+use-breeder-finder: true
+# Money exp boost with special permision.
+# You will need to add special permision for groups or players to have money/exp boost.
+# Use: jobs.boost.[jobname].money or jobs.boost.[jobname].exp or jobs.boost.[jobname].both for both of them
+# 1.25 means that player will get 25% more than others, you can set less than 1 to get less from anothers
+boost:
+  exp: 1.25
+  money: 1.25
+# Old job save
+# Players can leave job and return later with some level loss during that
+# You can fix players level if hes job level is at max level
+old-job:
+  level-loss-percentage: 50
+  fix-at-max-level: false
+# Action bars
+# You can enable/disable message shown for players in action bar
+ShowActionBars:
+  OnTitleChange: true
+  OnLevelChange: true
+  OnEmptyServerAcount: true
+# Chat messages
+# You can enable/disable message shown for players in chat
+ShowChatMessage:
+  OnTitleChange: true
+  OnLevelChange: true
+  OnEmptyServerAcount: true
+# Sounds
+# Extra sounds on some events
+# All sounds can be found in https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+Sounds:
+  LevelUp:
+    use: true
+    sound: LEVEL_UP
+    volume: 1
+    pitch: 3
+  TitleChange:
+    use: true
+    sound: LEVEL_UP
+    volume: 1
+    pitch: 3
+# McMMO abilities
+McMMO:
+  # Wont pay if player have TreeFiller abillity activated, prevents from posible exploiting with high treefiller level and big trees
+  DontPayWithTreeFellerOn: false

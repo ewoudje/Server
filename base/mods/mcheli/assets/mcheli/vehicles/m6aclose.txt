@@ -1,0 +1,10 @@
+﻿DisplayName = m6aVer close
+AddDisplayName = ja_JP, 晴嵐収納状態
+ItemID = 28652
+MaxHp = 100
+HideEntity = true
+RotationPitchMin = -80
+RotationPitchMax =  25
+DamageFactor = 0.0
+
+AddSeat = 0.0, 1.0, 0.0

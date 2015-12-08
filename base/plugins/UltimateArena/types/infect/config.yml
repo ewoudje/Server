@@ -1,0 +1,13 @@
+# Main configuration file for the infect arena type
+# http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
+
+gameTime: 180
+lobbyTime: 90
+maxDeaths: 2
+allowTeamKilling: false
+countMobKills: false
+rewardBasedOnXp: false
+cashReward: 100
+rewards:
+- GOLD_INGOT, 3
+- TNT, 1

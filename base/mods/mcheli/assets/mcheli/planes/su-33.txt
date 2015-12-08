@@ -1,0 +1,47 @@
+DisplayName = Su-33 Flanker-D
+AddDisplayName = ja_JP, Su-33 フランカーD
+ItemID = 28716
+MaxHp = 220
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 1.2
+FlareType = 1
+MaxFuel         = 1400
+FuelConsumption = 1.0
+
+AddSeat = 0.00,  2.11,  1.81
+
+AddPartCanopy = 0, 3.54,  0.05, -1,0,0,  60
+
+:Front
+AddPartLG =  0.00,  1.88,  0.06,  -1,0,0
+:Front_2
+AddPartLG =  0.00,  1.63, -0.81,  -1,0,0
+:Left
+AddPartLG =  1.67,  2.04, -5.51, -1,0,0,  90,  0,-1,0,  90
+:Right
+AddPartLG = -1.67,  2.04, -5.51, -1,0,0,  90,  0, 1,0,  90
+
+AddWeapon = gsh-30-1, -1.14,  2.07,  0.34,   2.0, -3.0
+
+AddWeapon = kh-31,  1.01, 0.35, -6.75,   2.0, -3.0
+AddWeapon = kh-31, -1.01, 0.35, -6.75,   2.0, -3.0
+
+AddWeapon = r-77,  2.58, 1.66, -5.97,   2.0, -3.0
+AddWeapon = r-77, -2.58, 1.66, -6.06,   2.0, -3.0
+
+AddWeapon = r-73,  5.87, 1.39, -8.58,   2.0, -3.0
+AddWeapon = r-73, -5.87, 1.39, -8.58,   2.0, -3.0
+
+AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,15,  G, glass,  L, dye,12,  B, iron_block,  C, comparator,  I, iron_ingot,  P, gunpowder
+
+AddPartWing =  2.90,  2.00,  -7.61,  0,0.07, 1, 110
+AddPartWing = -2.90,  2.00,  -7.61,  0,0.07,-1, 110
+AddPartWing =  2.83,  1.85, -10.04,  0,0,    1, 110
+AddPartWing = -2.83,  1.85, -10.04,  0,0,   -1, 110
+
+BoundingBox =  0.0, 2.2, -1.0,  2.0, 1.4
+BoundingBox =  0.0, 1.6, -4.5,  4.0, 2.0
+BoundingBox =  0.0, 1.6, -8.5,  3.0, 1.8
+BoundingBox = -2.9, 1.7, -5.5,  3.0, 0.8
+BoundingBox =  2.9, 1.7, -5.5,  3.0, 0.8

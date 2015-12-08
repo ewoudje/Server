@@ -1,0 +1,49 @@
+This is the book file.
+
+This file format works similar to the info.txt, motd.txt and rules.txt
+
+Place content in here that you would like to be used by books ingame.
+
+You can use this content by using the book:<section> meta option in kits or item spawning.
+
+#gates
+
+&3&lEarth&r
+L31R-E90-86
+
+&3&lGalar&r
+MATO-K5B-4M
+
+&3&lP8J-192&r
+J98L-7WZ-LX
+
+&3&lP4X-650&r
+0A13-QWU-2C
+
+&3&lProclarush&r
+2AAA-VO9-D5
+
+&3&lDestiny&r
+ZFFF-UP4-P0
+
+#banned
+
+&4&lPermanently Banned:&r
+- Matter Cannon
+- Mining Laser
+- Iridium Rotor
+- Quantum Generator
+
+#rules
+
+[1] Be respectful
+[2] Be ethical
+[3] Use common sense
+[4] Only grief within the bounds of factions
+[5] Report a bug and DO NOT exploit it if you find one or a ban will occur!
+
+#help
+
+Step1: StargateMC.com
+Step2: "Support Center"
+Step3: "New Support Ticket"

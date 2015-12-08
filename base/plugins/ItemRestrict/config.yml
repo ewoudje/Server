@@ -1,0 +1,54 @@
+Worlds:
+- All
+Scanner:
+  event:
+    onPlayerJoin: 1
+    onChunkLoad: 0.1
+Bans:
+  Usage:
+   - 1190
+   - 120
+   - 4389
+   - 4329
+   - 130
+   - 407
+   - 5660
+   - 1320-7
+   - 1322-11
+   - 6025
+   - 6026
+  Ownership:
+   - 1190
+   - 120
+   - 130
+   - 407
+   - 5660
+   - 1320-7
+   - 1322-11
+   - 6025
+   - 6026
+  World:
+Messages:
+  labels:
+     1190: StargateTech2 Stargate
+     120: End Portal Frame
+     130: Ender Chest
+     407: TNT Minecart
+     5660: Wooden TNT Minecart
+     1320-7: Mekanism Teleporter Frame
+     1322-11: Mekanism Teleporter
+     6025: Portable Teleporter
+     6026: Teleporter Core
+  reasons:
+     1190: StargateTech2 stargates are not permitted within StargateMC, please use SGCraft gates instead.
+     120: The End is disabled in StargateMC, along with End Portals.
+     130: Ender Chests are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
+     407: TNT Minecarts are disabled due to ignoring of Faction Territory when they explode.
+     5660: Wooden TNT Minecarts are disabled due to ignoring of Faction Territory when they explode.
+     1320-7: Mekanism Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
+     1322-11: Mekanism Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
+     6025: Portable Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate. 
+     6026: Teleporter Cores are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate. 
+     
+     
+     

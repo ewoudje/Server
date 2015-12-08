@@ -1,0 +1,38 @@
+﻿DisplayName = ki84
+AddDisplayName = ja_JP, 4式戦疾風
+ItemID = 30017
+MaxHp = 130
+Speed = 0.99
+Float = flase
+Sound = prop
+onGroundPitch = 13.3
+ThrottleUpDown = 0.4
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+AddSeat = 0.0,2.06,-0.64
+
+AddPartSlideCanopy = 0.00, 0.00,-0.6
+
+AddPartLG = -2.27,0.73,1.57,0,0,-1, 80
+AddPartLG =  2.27,0.73,1.57,0,0,1, 80
+AddPartLG = -0.30, 0.68,1.42,0,0,-1, 95
+AddPartLG =  0.30, 0.68,1.42,0,0,1, 95
+
+AddPartRotor = 0.0,1.42, 0.0, 1,0,0
+AddBlade = 1,0, 0.0,1.42, 0.0, 0,0,-1
+
+AddWeapon = mg12_7mm, 0.5, 1.6, 0.83, 0.0, -3.0
+AddWeapon = mg12_7mm,-0.5, 1.6, 0.83, 0.0, -3.0
+
+AddShapelessRecipe = mcheli:ki43,  mcheli:ki61b
+
+BoundingBox =  0.00,  1.75, -0.66,  1.5, 2.0
+BoundingBox =  0.00,  1.49,  2.51,  1.5, 1.5
+BoundingBox =  0.00,  1.66, -3.39,  1.0, 1.3
+
+BoundingBox =  3.72,  1.44,  0.66,  1.8, 0.3
+BoundingBox = -3.72,  1.44,  0.66,  1.8, 0.3
+
+BoundingBox =  1.23,  2.11, -5.17,  1.0, 0.2
+BoundingBox = -1.23,  2.11, -5.17,  1.0, 0.2

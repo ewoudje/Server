@@ -1,0 +1,180 @@
+{
+  "enabled": true,
+  "factionIdNone": "f5b46443-bd73-40ee-b1aa-23d40213f5c2",
+  "factionIdSafezone": "f92b2202-6b0f-436f-a096-90f5624ace56",
+  "factionIdWarzone": "408c7b16-b70a-4b0f-9367-d6d211c36892",
+  "defaultPlayerFactionId": "f5b46443-bd73-40ee-b1aa-23d40213f5c2",
+  "defaultPlayerRole": "RECRUIT",
+  "defaultPlayerPower": 5.0,
+  "defaultFactionOpen": false,
+  "defaultFactionFlags": {
+    "PERMANENT": false,
+    "PEACEFUL": false,
+    "INFPOWER": false,
+    "POWERLOSS": true,
+    "PVP": true,
+    "FRIENDLYFIRE": false,
+    "MONSTERS": false,
+    "EXPLOSIONS": true,
+    "OFFLINE_EXPLOSIONS": false,
+    "FIRESPREAD": false,
+    "ENDERGRIEF": false
+  },
+  "defaultFactionPerms": {
+    "BUILD": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ALLY"
+    ],
+    "PAINBUILD": [],
+    "DOOR": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY"
+    ],
+    "BUTTON": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY"
+    ],
+    "LEVER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY"
+    ],
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER"
+    ],
+    "INVITE": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "KICK": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "SETHOME": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "WITHDRAW": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "TERRITORY": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "ACCESS": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "DISBAND": [
+      "LEADER"
+    ],
+    "PERMS": [
+      "LEADER"
+    ]
+  },
+  "broadcastNameChange": true,
+  "powerMax": 1000.0,
+  "powerMin": 0.0,
+  "powerPerHour": 10.0,
+  "powerPerDeath": -10.0,
+  "canLeaveWithNegativePower": false,
+  "factionMemberLimit": 5,
+  "factionPowerMax": 5000.0,
+  "factionNameLengthMin": 3,
+  "factionNameLengthMax": 16,
+  "factionNameForceUpperCase": true,
+  "claimsMustBeConnected": false,
+  "claimingFromOthersAllowed": true,
+  "claimsCanBeUnconnectedIfOwnedByOtherFaction": true,
+  "claimsRequireMinFactionMembers": 1,
+  "claimedLandsMax": 5000,
+  "homesEnabled": true,
+  "homesMustBeInClaimedTerritory": true,
+  "homesTeleportCommandEnabled": true,
+  "homesTeleportAllowedFromEnemyTerritory": false,
+  "homesTeleportAllowedFromDifferentWorld": true,
+  "homesTeleportAllowedEnemyDistance": 25.0,
+  "homesTeleportIgnoreEnemiesIfInOwnTerritory": true,
+  "homesTeleportToOnDeathActive": true,
+  "homesTeleportToOnDeathPriority": "NORMAL",
+  "permanentFactionsDisableLeaderPromotion": false,
+  "actionDeniedPainAmount": 5.0,
+  "disablePVPForFactionlessPlayers": false,
+  "enablePVPAgainstFactionlessInAttackersLand": true,
+  "territoryShieldFactor": 0.3,
+  "denyCommandsPermanentFactionMember": [],
+  "denyCommandsTerritoryRelation": {
+    "ENEMY": [
+      "home",
+      "sethome",
+      "tpahere",
+      "tpaccept",
+      "tpa",
+      "warp",
+      "warps",
+      "spawn",
+      "wtp",
+      "uspawn",
+      "utp",
+      "mspawn",
+      "mtp",
+      "fspawn",
+      "ftp",
+      "jspawn",
+      "jtp"
+    ],
+    "NEUTRAL": [],
+    "TRUCE": [],
+    "ALLY": [],
+    "MEMBER": []
+  },
+  "lwcRemoveOnChange": {
+    "BUY": false,
+    "SELL": false,
+    "CONQUER": false,
+    "PILLAGE": false
+  },
+  "econEnabled": true,
+  "econLandReward": 1.0,
+  "econUniverseAccount": "",
+  "econChunkCost": {
+    "BUY": 50.0,
+    "SELL": -20.0,
+    "CONQUER": -10.0,
+    "PILLAGE": -10.0
+  },
+  "econCostCreate": 5000.0,
+  "econCostSethome": 500.0,
+  "econCostJoin": 0.0,
+  "econCostLeave": 0.0,
+  "econCostKick": 0.0,
+  "econCostInvite": 0.0,
+  "econCostDeinvite": 0.0,
+  "econCostHome": 0.0,
+  "econCostName": 2500.0,
+  "econCostDescription": 0.0,
+  "econCostTitle": 1000.0,
+  "econCostOpen": 5000.0,
+  "econRelCost": {
+    "ENEMY": 5000.0,
+    "ALLY": 5000.0,
+    "TRUCE": 1000.0,
+    "NEUTRAL": 2500.0
+  },
+  "bankEnabled": true,
+  "bankFactionPaysCosts": true,
+  "bankFactionPaysLandCosts": true
+}

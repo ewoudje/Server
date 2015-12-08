@@ -1,0 +1,23 @@
+DisplayName = Macchi M33
+AddDisplayName = ja_JP, マッキM33
+ItemID = 28710
+MaxHp = 100
+Speed = 0.9
+Float = true
+FloatOffset = -0.2
+Sound = rr_merlin
+onGroundPitch =9.0
+ThrottleUpDown = 1.5
+MaxFuel         = 1000
+FuelConsumption = 1.0
+
+AddTexture =macchi_m33_2
+
+;AddSeat =  X, Y, Z
+AddSeat = -.0,  0.1, 1.4
+
+AddPartRotor =    0.01,  2.69, 0.00,   1,0,0
+AddBlade = 1, 0,  0.01,  2.69, 0.00,   0,0,-1
+
+
+AddRecipe ="BGL","IXI","RGS",X,iron_block,I,iron_ingot,G,log,R,dye,1,L,dye,10,B,dye,15,S,dye,7

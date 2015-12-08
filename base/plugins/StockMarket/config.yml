@@ -1,0 +1,91 @@
+# How many stocks is the player allowed in total?
+max-total-stocks-per-player: 250
+max-total-stocks-per-player-per-stock: 50
+random-event-frequency: 1
+dividend-frequency: 15
+pay-offline-players: false
+broadcast-events: true
+broadcast-payouts: true
+mysql:
+  ip: localhost
+  port: 3306
+  username: root
+  password: S0ulM@t3
+  database: stargatemc
+events:
+  '0':
+    message: The leader of %s has been assassinated, stability within %s will be impacted.
+    effect: 150
+    up: false
+    frequency: 50
+  '1':
+    message: The leader of %s has stepped down from their command, allowing for a new, fresh leader to take over.
+    effect: 150
+    up: true
+    frequency: 50
+  '2':
+    message: '%s have identified a very rich mining vein on a previous unknown planet
+      and are expanding their mining division!'
+    effect: 300
+    up: true
+    frequency: 120
+  '3':
+    message: '%s have lost a battle to hold one of their outposts from their enemies,
+      losing a portion of their mining resources'
+    effect: 300
+    up: false
+    frequency: 120
+  '4':
+    message: '%s'' crops have been harvested and the numbers are in... and theyre
+      UP!'
+    effect: 450
+    up: true
+    frequency: 90
+  '5':
+    message: '%s''s food crops have caused mass food poisioning among several worlds,
+      leading to a lack of interest in what they have to offer!'
+    effect: 450
+    up: false
+    frequency: 90
+  '6':
+    message: '%s has had a bad time of it recently.'
+    effect: 300
+    up: false
+    frequency: 80
+  '7':
+    message: '%s has had a fantastic time of it recently.'
+    effect: 300
+    up: true
+    frequency: 80
+  '8':
+    message: Speculation exists that %s will soon retake several previously conquered mining outposts.
+    effect: 650
+    up: true
+    frequency: 15
+  '9':
+    message: '%s is on the brink of war with one of their enemies.'
+    effect: 650
+    up: false
+    frequency: 15
+  '10':
+    message: '%s just brokered a temporary peace treaty with all races!'
+    effect: 10000
+    up: true
+    frequency: 10
+  '11':
+    message: '%s have withdrawn from socio-economical relations with all other races
+      due to recent conflict.'
+    effect: 10000
+    up: false
+    frequency: 10
+  '12':
+    message: '%s just annouced they are prepared to introduce a democratic leadership!'
+    effect: 2000
+    up: true
+    frequency: 25
+  '13':
+    message: '%s just announced they are reintroducing a dictatorship due to public
+      unrest.'
+    effect: 2000
+    up: false
+    frequency: 25

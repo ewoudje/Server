@@ -1,0 +1,84 @@
+# 
+# Attempts to make things less weird by allowing npc_script to be called instead of muco.
+Shortcuts:
+  npc_script: muco
+Commands:
+  JOB_JOIN:
+  - /jobs employ $1 $2
+  - '[1]/broadcast $1 has become a $2!'
+  JOB_LEAVE:
+  - /jobs fire $1 $2
+  - '[1]/broadcast $1 is no longer a $2!'
+  JOB_DEMOTE:
+  - /jobs demote $1 $2 $3
+  - '[1]/broadcast $1 has failed the $2s, causing them to be demoted $3 levels!'
+  JOB_PROMOTE:
+  - /jobs promote $1 $2 $3
+  - '[1]/broadcast $1 has completed a mission for the $2s, granting  an additional
+    $3 levels!'
+  JOB_GRANTXP:
+  - /jobs grantxp $1 $2 $3
+  - '[1]/eco give $1 $3'
+  - '[1]/broadcast $1 has completed a mission for their $2 profession and earned $3
+    experience!'
+  JOB_REMOVEXP:
+  - /jobs removexp $1 $2 $3
+  JOB_TRANSFER:
+  - /jobs demote $1 $2 25
+  - '[1]/jobs transfer $1 $2 $3'
+  - '[1]/broadcast $1 has paid dearly to have their experience as a $2 transferred
+    to being a $3!'
+  JOB_TRANSFER_AT_LEVEL:
+  - '[1]/jobs transfer $1 $2 $3'
+  - '[1]/broadcast $1 has been promoted from a $2 to a $3!'
+  CREATE_NORMAL:
+  - /mw create $1-homeworld normal
+  - '[1]/mw load $1-homeworld'
+  - '[1]/wb $1-homeworld set 250 250 spawn'
+  - '[1]/dynmap pause all'
+  - '[1]/dmap worldset $1-homeworld title:$1sHomeworld'
+  - '[1]/dmap worldset $1-homeworld visible:true'
+  - '[1]/dmap worldset $1-homeworld enabled:true'
+  - '[1]/dynmap pause none'
+  GOTO_NORMAL_WORLD:
+  - /mw load $1-homeworld
+  - '[2]/mw move $1 $1-homeworld'
+  - '[1]/sudo $1 me has beamed to the surface of their homeworld safely.'
+  TUTORIAL_CHAT_JOIN:
+  - /tell $1 To join or leave a chat channel is relatively simple.
+  - '[2]/tell $1 You can type §4/ch join §6<name>§b to join a channel...'
+  - '[3]/tell $1 Let me show you... Lets join the local channel'
+  - '[3]/tell $1 §9You are being forced to type: §4/ch join §6local§b!'
+  - '[2]/sudo $1 ch join local'
+  - '[3]/tell $1 As you can see you are now chatting in local!'
+  - '[2]/tell $1 Now... you can type §4/ch leave §6<name>§b to leave...'
+  - '[3]/tell $1 Let me show you...'
+  - '[3]/tell $1 §9You are being forced to type: §4/ch leave §6local§b!'
+  - '[2]/sudo $1 ch leave local'
+  - '[3]/tell $1 Thats it. You should now know how to join or leave a chat channel!'
+  TUTORIAL_CHAT_FOCUS:
+  - /tell $1 To focus your outbound messages in chat, it's relatively easy.
+  - '[2]/tell $1 You can type §4/ch §6<name>§b to focus a channel...'
+  - '[3]/tell $1 Let me show you... Lets focus our chat messsages to the local channel'
+  - '[3]/tell $1 §9You are being forced to type: §4/ch §6local§b!'
+  - '[2]/sudo $1 ch local'
+  TUTORIAL_FACTIONS:
+  - /tell $1 You, for the right price, can create your own faction to claim territory.
+  - '[2]/tell $1 You can type §4/faction create §6<name>§b to create a faction...'
+  - '[3]/tell $1 Each time you create a faction it will cost you $5,000. This is not
+    refunded if you disband.'
+  - '[3]/tell $1 §9To disband your faction, you may type: §4/faction disband'
+  - '[3]/tell $1 §9To transfer money to your faction bank, you may type: §4/faction
+    money pf <amount> <player> <faction>'
+  - '[3]/tell $1 §9To claim territory for your faction, you may type: §4/faction claim'
+  - '[3]/tell $1 §9To disband your faction, you may type: §4/faction disband'
+  - '[3]/tell $1 §9For help with anything related to factions, you may type  §4/help
+    factions §9at any time.'
+  testList: []
+DisabledCommands: []
+commandDisabledMsg: '&cThis command is disabled!'
+Permissions: true
+verbooseMode: false
+playerDisplayName: true
+maxvariables: 5
+updateReminderEnabled: true

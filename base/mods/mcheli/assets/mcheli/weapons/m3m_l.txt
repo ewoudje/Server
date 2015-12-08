@@ -1,0 +1,18 @@
+DisplayName = M3M 12.7mm
+Type = MachineGun2
+Power = 10
+Acceleration = 8.0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 0.6
+SoundPitch = 1.0
+Accuracy = 1.0
+HeatCount = 6
+MaxHeatCount = 150
+SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+
+MaxAmmo = 300
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

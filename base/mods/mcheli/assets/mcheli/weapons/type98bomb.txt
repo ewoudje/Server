@@ -1,0 +1,13 @@
+DisplayName = Type98 No25 Bomb
+Type = Bomb
+Power = 45
+Acceleration = 0.2
+Explosion = 4
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 5
+
+ReloadTime = 150
+Round = 1
+Piercing  = 1

@@ -1,0 +1,40 @@
+﻿DisplayName = JETGoat
+AddDisplayName = ja_JP, ジェットゴート
+ItemID = 30004
+MaxHp = 50
+Speed = 1.8
+Float = true
+FloatOffset = 0.0
+Sound = Rocket
+onGroundPitch =.0
+ThrottleUpDown = 3.0
+
+MobilityYaw = 10
+MobilityPitch = 10
+MinRotationPitch = -80
+MaxRotationPitch = 80
+
+MaxFuel         = 2000
+FuelConsumption = 1.0
+
+AddPartNozzle =  0.40, 0.42, -0.67, -1,0,0
+AddPartNozzle = -0.40, 0.42, -0.67, -1,0,0
+
+;Front
+AddPartLG =  0.0, 0.3,  0.4,  -1,0,0, 50
+;Lear
+AddPartLG =  0.0, 0.2,  -0.5,  1,0,0, 50
+
+AddTexture =jetgoat_2
+
+;AddSeat =  X, Y, Z
+AddSeat = -.0,  0.7, -0.1
+
+AddWeapon = baa, 0.00, 0.5, 0.00,   0.0, 0.0
+AddWeapon = baaa, 0.00, 0.5, 0.00,   0.0, 0.0
+
+
+AddRecipe = "BXW",  "WSW",  "BXW",  X,iron_block, B,Bone, W,wool, S,Saddle
+
+BoundingBox =  0.00,  0.40,  0.05, 1.0, 0.5
+BoundingBox =  0.00,  0.83,  0.47, 0.3, 0.5

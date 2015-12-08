@@ -1,0 +1,17 @@
+DisplayName = BK-27 RevolverCanon
+Type = MachineGun1
+Power = 23
+Acceleration = 9.9
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundDelay = 1
+Accuracy = 2.4
+HeatCount = 6
+MaxHeatCount = 150
+
+MaxAmmo = 300
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

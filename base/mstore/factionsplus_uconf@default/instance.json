@@ -1,0 +1,308 @@
+{
+  "enabled": true,
+  "jailsEnabled": true,
+  "whoCanSetJails": {
+    "LEADER": true,
+    "OFFICER": true,
+    "MEMBER": false,
+    "RECRUIT": false
+  },
+  "whoCanJail": {
+    "LEADER": true,
+    "OFFICER": false,
+    "MEMBER": false,
+    "RECRUIT": false
+  },
+  "removeJailDataOnLeave": true,
+  "denyMovementWhileJailed": true,
+  "denyChatWhileJailed": true,
+  "delayBeforeSentToJail": 15,
+  "mustBeInOwnTerritoryToJail": true,
+  "tellPlayerWhoJailedThem": true,
+  "warpsEnabled": false,
+  "whoCanSetWarps": {
+    "LEADER": true,
+    "OFFICER": true,
+    "MEMBER": false,
+    "RECRUIT": false
+  },
+  "whoCanUseWarps": {
+    "LEADER": true,
+    "OFFICER": true,
+    "MEMBER": true,
+    "RECRUIT": true
+  },
+  "allowWarpsIn": {
+    "owned": true,
+    "wilderness": false,
+    "safezone": false,
+    "warzone": false,
+    "ally": false,
+    "enemy": false,
+    "neutral": false,
+    "truce": false
+  },
+  "enforceAllowOnTeleport": true,
+  "maxWarps": 5,
+  "allowWarpFrom": {
+    "owned": true,
+    "wilderness": true,
+    "safezone": true,
+    "warzone": false,
+    "enemy": false,
+    "ally": true,
+    "neurtal": true,
+    "truce": true
+  },
+  "allowWarpFromOtherWorld": true,
+  "disallowWarpIfEnemyWithin": 0,
+  "ignoreDisallowWarpIfEnemyWithinIfIn": {
+    "owned": true,
+    "wilderness": false,
+    "safezone": true,
+    "warzone": false,
+    "ally": true,
+    "enemy": false,
+    "neutral": false,
+    "truce": false
+  },
+  "smokeEffectOnWarp": true,
+  "removeWarpIfInWrongTerritory": true,
+  "factionNameForceFirstLetterUppercase": false,
+  "factionJoinLeaveMessagesLockedToFaction": false,
+  "factionChestAllowAnywhere": false,
+  "whoCanSetChest": {
+    "LEADER": true,
+    "OFFICER": true,
+    "MEMBER": false,
+    "RECRUIT": false
+  },
+  "bansEnabled": true,
+  "whoCanBan": {
+    "LEADER": true,
+    "OFFICER": false,
+    "MEMBER": false,
+    "RECRUIT": false
+  },
+  "rulesEnabled": false,
+  "whoCanSetRules": {
+    "LEADER": true,
+    "OFFICER": true,
+    "MEMBER": false,
+    "RECRUIT": false
+  },
+  "maxRulesPerFaction": 12,
+  "showRulesOnJoin": true,
+  "enablePeacefulBoost": true,
+  "peacefulPowerBoost": 1000,
+  "whoCanTogglePeacefulState": {
+    "LEADER": true,
+    "OFFICER": false,
+    "MEMBER": false,
+    "RECRUIT": false
+  },
+  "peacefulToggleDelayInSeconds": 1800,
+  "extraPowerBoosts": {
+    "whenKillEnemyPlayer": 5.0,
+    "whenKillAllyPlayer": -25.0,
+    "whenKillTrucePlayer": -10.0,
+    "whenKillNeutralPlayer": 0.0,
+    "whenKillAnotherMonster": 0.0
+  },
+  "extraPowerLoss": {
+    "whenDeathBySuicide": 10.0,
+    "whenDeathByPVP": 0.0,
+    "whenDeathByMob": 0.0,
+    "whenDeathByCactus": 0.0,
+    "whenDeathByTNT": 0.0,
+    "whenDeathByFire": 0.0,
+    "whenDeathByPotion": 0.0,
+    "whenDeathByOther": 0.0
+  },
+  "announcementsEnabled": true,
+  "whoCanAnnounce": {
+    "LEADER": true,
+    "OFFICER": false,
+    "MEMBER": false,
+    "RECRUIT": false
+  },
+  "showAnnouncement": {
+    "onlogin": true,
+    "onterritoryenter": true
+  },
+  "allowColoursInAnnouncements": true,
+  "denyTeleportIntoAlly": {
+    "viaHome": false,
+    "viaBack": false,
+    "viaEnderPearls": false,
+    "reportToConsole": false
+  },
+  "denyTeleportIntoEnemy": {
+    "viaHome": false,
+    "viaBack": false,
+    "viaEnderPearls": false,
+    "reportToConsole": false
+  },
+  "denyTeleportIntoNeutral": {
+    "viaHome": false,
+    "viaBack": false,
+    "viaEnderPearls": false,
+    "reportToConsole": false
+  },
+  "denyTeleportIntoSafeZone": {
+    "viaHome": false,
+    "viaBack": false,
+    "viaEnderPearls": false,
+    "reportToConsole": false
+  },
+  "denyTeleportIntoWarZone": {
+    "viaHome": false,
+    "viaBack": false,
+    "viaEnderPearls": false,
+    "reportToConsole": false
+  },
+  "economyCost": {
+    "warp": 0.0,
+    "createwarp": 0.0,
+    "deletewarp": 0.0,
+    "announce": 0.0,
+    "jail": 0.0,
+    "setJail": 0.0,
+    "unJail": 0.0,
+    "toggleUpPeaceful": 0.0,
+    "toggleDownPeaceful": 0.0
+  },
+  "chargeFactionInsteadOfPlayer": true,
+  "scoreboardTopFactions": true,
+  "scoreboardUpdate": 5,
+  "denyCommandsIn": {
+    "FACTION": [],
+    "SAFEZONE": [],
+    "WARZONE": [],
+    "WILDERNESS": []
+  },
+  "denyClaimsWhenNearby": {
+    "ALLY": true,
+    "ENEMY": true,
+    "NEUTRAL": true,
+    "TRUCE": true
+  },
+  "removeSignProtectionOn": true,
+  "removeLWCProtectionOn": true,
+  "disallowPublicAccessToLWCProtectionsInLands": true,
+  "allowFactionKill": {
+    "allyMobs": false,
+    "neturalMobs": true,
+    "enemyMobs": true,
+    "truceMobs": true
+  },
+  "allowFactionInteract": {
+    "PIG": true,
+    "HORSE": true
+  },
+  "protectPassiveMobsSafeZone": true,
+  "makeSafeZoneExtraSafe": true,
+  "strictFarming": false,
+  "allowShopsInWilderness": true,
+  "allowShopsInTerritory": true,
+  "allowSignProtectionInWilderness": true,
+  "allowSignProtectionInTerritory": true,
+  "onlyPeacefulCreateLWCProtections": false,
+  "enableWorldGuardRegionCheck": false,
+  "allowBuildingInRegionIfMember": true,
+  "checkForWorldGuardRegionFlags": false,
+  "disallowAccessToVillagersToOtherFactions": true,
+  "allowAttackingWhileFlying": true,
+  "allowSplashPotionsWhileFlying": true,
+  "fixes": {
+    "disallowChangingRelationshipToWilderness": true,
+    "disallowChangingRelationshipToSafezone": true,
+    "disallowChangingRelationshipToWarzone": true,
+    "crossBorderLiquidFlowBlock": true,
+    "crossBorderLiquidFlowBlockMakeCobblestone": true
+  },
+  "factionCommandHideDescriptionInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideAgeInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideOpenInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHidePowerInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideLandInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideBankInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHidePermanentInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHidePeacefulInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideIsTruceWithInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideIsAlyWithInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideIsEnemyWithInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideFollowersOnlineInfo": [
+    "enterFactionID"
+  ],
+  "factionCommandHideFollowersOfflineInfo": [
+    "enterFactionID"
+  ],
+  "whoCanToggleListeningNeeds": {
+    "LEADER": true
+  },
+  "creativegates": {
+    "destroyOnClaimUnclaim": true,
+    "allowCreateInOwnTerritories": true,
+    "allowCreateInWilderness": true,
+    "useCreativeGatesInEnemy": true,
+    "useCreativeGatesInAlly": true,
+    "useCreativeGatesInWilderness": true,
+    "useCreativeGatesInTruce": true,
+    "useCreativeGatesInNeutral": true,
+    "useCreativeGatesInPermanent": true
+  },
+  "disguiseRemoveIfInOwnTerritory": false,
+  "disguiseRemoveIfInWilderness": false,
+  "disguiseRemoveIfInEnemyTerritory": false,
+  "multiverse": {
+    "usePortalsInEnemy": true,
+    "usePortalsInAlly": true,
+    "usePortalsInWilderness": true,
+    "usePortalsInWarzone": true,
+    "usePortalsInSafezone": true,
+    "usePortalsInTruce": true,
+    "usePortalsInNeutral": true
+  },
+  "cannons": {
+    "useCannonsInEnemy": true,
+    "useCannonsInAlly": true,
+    "useCannonsInWilderness": true,
+    "useCannonsInTruce": true,
+    "useCannonsInPermanent": true,
+    "useCannonsInOwn": true
+  },
+  "magicAllowInWilderness": true,
+  "magicAllowInWarzone": true,
+  "magicAllowInSafezone": true,
+  "magicAllowInOwnFaction": true,
+  "magicAllowInEnemyFaction": true,
+  "magicAllowInAllyFaction": true,
+  "magicMustBeInAFactionToUse": false,
+  "magicDisallowInFactions": [
+    "enterFactionID"
+  ],
+  "magicRequiresMinimumPowerOf": 0.0
+}

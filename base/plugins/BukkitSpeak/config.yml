@@ -1,0 +1,79 @@
+main:
+  TeamSpeakIp: localhost
+  TeamSpeakPort: 9987
+  QueryPort: 10011
+  QueryUsername: StargateMC
+  QueryPassword: 'mySjfI8m'
+teamspeak:
+  TeamspeakNickname: StargateMC
+  ConsoleName: '&eStargateMC'
+
+  # Only required if you use the channel functions!
+  ChannelID: 1
+  ChannelPassword: ''
+
+  # Can only be true or false
+  SendServerEventsToMinecraft: true
+  SendServerBroadcastsToMinecraft: true
+  SendChannelEventsToMinecraft: true
+  SendChannelChatToMinecraft: true
+
+  # This will NOT publish your private TS messages!
+  # It allows Minecraft users to send messages to specific TS clients.
+  EnablePrivateMessaging: true
+  AllowLinksInMessages: true
+
+  # Can be either 'server', 'channel' or 'none'
+  SendChatToTeamspeak: channel
+
+  # Can only be true or false
+  LogChatInConsole: true
+
+  # The priority of the chat listener.
+  # By default, BukkitSpeak ignores all cancelled events (MONITOR).
+  # You can change this value to allow some or all (LOWEST) cancelled events to still be checked.
+  # Read more about chat priorities here: http://wiki.bukkit.org/Event_API_Reference#Event_Priorities
+  ChatListenerPriority: MONITOR
+
+  # Debug Mode
+  # Use if the plugin doesn't work at all
+  # Or for posting error logs in the forum
+  Debug: false
+
+teamspeak-commands:
+  # Please read the documentation before enabling TS commands!
+  Enabled: false
+
+  # The prefix to be used for TS commands. / is used by TeamSpeak itself unfortunately.
+  CommandPrefix: '!'
+
+  # Controls whether teamspeak commands get logged or not
+  LogTeamspeakCommands: true
+
+  # How many milliseconds should be waited before sending messages to the client on Teamspeak
+  # The buffer lets individual messages stack up and is then sent as one TS message.
+  MessageBufferDelay: 100
+
+  # Which internal commands should be enabled
+  internal:
+    ListCommandEnabled: true
+    PmCommandEnabled: true
+
+plugin-interaction:
+  Factions:
+    # If Factions is enabled, should only public chat be sent to TeamSpeak?
+    public-only: true
+  Herochat:
+    # Do we want to enable support for Herochat?
+    enabled: true
+    # Which channel do we want us to use?
+    channel: Universe
+    # Should events on TeamSpeak (Enter, Leave, Channel changed)
+    # also be sent to this channel?
+    SendTeamspeakEventsToChannel: true
+  mcMMO:
+    # Only applies if mcMMO is enabled on the server.
+    # Should party chat be filtered out?
+    FilterPartyChat: true
+    # Should admin chat be filtered out?
+    FilterAdminChat: true

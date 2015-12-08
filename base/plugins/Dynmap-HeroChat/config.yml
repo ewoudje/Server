@@ -1,0 +1,5 @@
+# Dynmap-HeroChat configuration
+web-to-channel: Galaxy
+channel-to-web-list:
+- Galaxy
+webmsgformat: '&color;2[WEB] %playername%: &color;f%message%'

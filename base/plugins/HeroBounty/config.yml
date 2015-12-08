@@ -1,0 +1,30 @@
+#minimum amount users must pay to post a bounty (includes reward + fee)
+bounty-min: 1000
+
+#percent of the amount paid that is taken as a fee for posting a bounty
+#the remaining portion makes up the reward for the bounty
+bounty-fee-percent: 10
+
+#percent of the award value hunters must pay to accept a contract
+contract-fee-percent: 10
+
+#percent of the award value that the killed target loses
+death-penalty-percent: 100
+
+#percent of the award value that taken as a cancellation fee
+cancellation-fee-percent: 75
+
+#the amount of time bounty hunters have to complete a bounty (in minutes)
+bounty-duration: 144000
+
+#the amount of time before a bounty can be accepted (in minutes)
+bounty-accept-delay: 15
+
+#if true, hides the target names until a bounty is accepted
+anonymous-targets: true
+
+#if true, splits the owner's posting fee between hunters when a bounty is cancelled
+pay-inconvenience: true
+
+#round locations displayed by the /bounty locate command to the nearest location-rounding
+location-rounding: 50

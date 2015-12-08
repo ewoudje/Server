@@ -1,0 +1,19 @@
+DisplayName = YakB-12.7 Chain gun
+Type = MachineGun2
+Power = 10
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+ReloadTime = 70
+Round = 25
+SoundVolume = 3
+SoundPitch = 1.0
+Accuracy = 1.0
+ModeNum = 0
+
+MaxAmmo = 300
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

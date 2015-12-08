@@ -1,0 +1,65 @@
+{
+  "name": "§2Unclaimed Territory",
+  "description": "This territory is not claimed or protected by any faction and can be claimed by anyone.",
+  "createdAtMillis": 1403098395609,
+  "open": false,
+  "flags": {
+    "PERMANENT": true,
+    "INFPOWER": true,
+    "OFFLINE_EXPLOSIONS": true,
+    "ENDERGRIEF": true,
+    "MONSTERS": true
+  },
+  "perms": {
+    "BUILD": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "DOOR": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "BUTTON": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "LEVER": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "CONTAINER": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "LEADER",
+      "MEMBER",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ]
+  }
+}

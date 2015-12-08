@@ -1,0 +1,10 @@
+general:
+  language: english
+  language-save: false
+  check-updates: true
+schematic-loader:
+  use-worldedit-folder: true
+  blocks-per-tick: 5000
+  delay-between-ticks: 2
+  fast-place: true
+  use-permission-per-file: false

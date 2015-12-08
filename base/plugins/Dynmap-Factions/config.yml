@@ -1,0 +1,29 @@
+# Dynmap-Factions configuration
+update:
+  period: 300
+layer:
+  name: Factions
+  hidebydefault: false
+  layerprio: 2
+  minzoom: 0
+infowindow: <div class="infowindow"><span style="font-size:120%;">%regionname%</span><br />Flags<br /><span style="font-weight:bold;">%flags%</span></div>
+visibility-by-faction: true
+regionstyle:
+  strokeColor: '#FF0000'
+  strokeOpacity: 0.8
+  strokeWeight: 3
+  fillColor: '#FF0000'
+  fillOpacity: 0.35
+  homeicon: redflag
+  boost: false
+visibleregions: []
+hiddenregions: []
+custstyle:
+  SafeZone:
+    strokeColor: '#0000FF'
+    fillColor: '#0000FF'
+    boost: false
+  WarZone:
+    strokeColor: '#404040'
+    fillColor: '#404040'
+    boost: false

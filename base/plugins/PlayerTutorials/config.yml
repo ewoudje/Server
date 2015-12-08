@@ -1,0 +1,41 @@
+#Change this to true to enable automatic tutorial playing when a new player joins the server.
+onJoin: false
+
+#Change this number to how long (in seconds) you want a player to be at each point
+timeBetweenTeleports: 5
+
+#Message you want to send users when the tutorial is over(color codes are fully supported). DUE TO PROBLEMS WITH BUKKIT THE COLOR CODE SYMBOL IS ";" ONLY FOR THIS MESSAGE
+endMsg: ;dYou have completed the tutorial!
+
+#Change this to true to enable the command on the end of a tutorial
+cmdOnEnd: false
+
+#Change this to the command you want executed when the player finishes the tutorial(WITHOUT THE /). For instance, if you want to give them an item. You can now have as many commands as you want by separating them using the ";" character. DO NOT ADD SPACES BETWEEN THE ";" SYMBOL AND COMMANDS. 
+endCommand: give <player> dirt 1;give <player> glass 1
+
+#Gamemode you want the player to be in during the tutorial(ADVENTURE, SURVIVAL, CREATIVE, SPECTATOR)
+gmDuring: ADVENTURE
+
+#Gamemode you want the player to be in after the tutorial(ADVENTURE, SURVIVAL, CREATIVE, SPECTATOR)
+gmAfter: CREATIVE
+
+#Change this to true to enable sounds while a player is going through a tutorial. This makes things more interesting
+sounds: true
+
+#Set this to true to disable the join message for players that are being sent to a tutorial
+noJoinMsgOnTT: true
+
+#Change to true to disable players ability to chat while in a tutorial
+noChatInTT: true
+
+#Change to true to disable players ability to use commands while in a tutorial
+noCmdInTT: true
+
+#Change this to false to allow players to move while in a tutorial
+cancelMove: true
+
+#Set this to true to enable 1.8 title messages to be send to players when they join the server.
+isWelcoming: true
+
+#This is the tutorial number you want to send to players when they join. Set this to "random" to have a tutorial randomly selected from the ones you have made. YOU CAN ONLY USE "random" IF YOU HAVE A WELCOME MESSAGE SAVED IN EVERY SLOT.
+welcomeMessage: default

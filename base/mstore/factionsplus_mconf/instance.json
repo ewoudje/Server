@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "debug": true,
+  "updateCheck": true,
+  "CurseAPIKey": "",
+  "metrics": true,
+  "scoreboardUpdate": 5
+}

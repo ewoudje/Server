@@ -1,0 +1,20 @@
+# restrictedblocks - All block to be protected from place/block exploit and piston move
+# Dont count in vegetables
+# blockstimer - Block protected by timer in sec
+# 141-60 means that carrot can be harvested after 60 sec (remember to use id's from placed objects, not from your inventory)
+
+restrictedblocks:
+- '14'
+- '15'
+- '16'
+- '21'
+- '48'
+- '56'
+- '73'
+- '129'
+- '153'
+blockstimer:
+- 141-60
+- 59-60
+- 81-60
+- 32-60

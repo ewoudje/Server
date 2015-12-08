@@ -1,0 +1,20 @@
+DisplayName = 46cm Canon
+Type = MachineGun1
+ModelBullet = bullet46cm
+Power = 46
+Acceleration = 3.0
+Explosion = 15
+ExplosionInWater = 10
+Flaming = false
+Sight = MoveSight
+Delay = 0
+Round = 3
+ReloadTime = 220
+SoundDelay = 3
+SoundPitch = 0.3
+
+
+MaxAmmo = 12
+SuppliedNum = 3
+Item =  7, iron_ingot
+Item =  7, gunpowder

@@ -1,0 +1,38 @@
+DisplayName = Ka-27 Helix
+AddDisplayName = ja_JP, Ka-27 ヘリックス
+ItemID = 28804
+MaxHp = 200
+EnableGunnerMode = true
+EnableFoldBlade = true
+EnableNightVision = true
+Speed = 0.6
+ThrottleUpDown = 0.8
+FlareType = 1
+CameraPosition = 0.0, 0.0, 3.1
+EnableEntityRadar = true
+MaxFuel         = 1800
+FuelConsumption = 1.0
+
+AddTexture = ka-27b
+
+AddRotorOld= 3, 120,  0.00,  4.80, -2.14,  0.0,  1.0, 0.0, true
+AddRotorOld= 3, 120,  0.00,  6.75, -2.14,  0.0, -1.0, 0.0, true
+
+AddSeat =-0.50,  1.50,  1.75
+AddSeat = 0.50,  1.50,  1.75
+AddSeat = 0.80,  1.50, -4.20
+
+AddWeapon = s-5m57mm,     -1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = s-5m57mm,      1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = plab-250-120, -1.25, 1.35,-4.00,   0.0, 0.0
+AddWeapon = plab-250-120,  1.25, 1.35,-4.00,   0.0, 0.0
+AddWeapon = kh-35,        -1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = kh-35,         1.25, 1.35,-2.00,   0.0, 0.0
+
+AddRecipe = "X X",  "X X",  " X ",  X, iron_block
+
+InventorySize = 27
+
+BoundingBox =  0.0, 3.0, -1.0,  2.0, 4.8
+BoundingBox =  0.0, 2.5, -3.5,  2.0, 3.8
+BoundingBox =  0.0, 2.5, -6.0,  2.0, 3.0

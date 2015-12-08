@@ -1,0 +1,26 @@
+DisplayName =  MH-6 Little Bird
+AddDisplayName = ja_JP, MH-6 リトルバード
+ItemID = 28805
+MaxHp = 150
+EnableGunnerMode = false
+EnableFoldBlade = false
+EnableNightVision = true
+Speed = 0.6
+ThrottleUpDown = 1.2
+FlareType = 1
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+AddRotorOld= 6, 60,  0.00,  3.35,  0.00,  0.0, 1.0, 0.0
+AddRotorOld= 2,180,  0.50,  1.90, -6.55,  1.0, 0.0, 0.0
+
+AddSeat =-0.45,  0.80,  1.20
+AddSeat = 0.45,  0.80,  1.20
+AddSeat =-1.45,  0.60, -0.90
+AddSeat = 1.45,  0.60, -0.90
+AddSeat =-1.45,  0.60,  0.70
+AddSeat = 1.45,  0.60,  0.70
+
+AddRecipe = "Y Y",  " X ",  "Y Y",  X, iron_block, Y, iron_ingot
+
+InventorySize = 18

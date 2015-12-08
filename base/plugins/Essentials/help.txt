@@ -1,0 +1,101 @@
+&b[Help Categories]
+&c/help staff&f - Displays how to communicate with the staff for assistance on StargateMC
+&dThis displays how to communicate with the staff for assistance on StargateMC
+&c/help teamspeak&f - Displays connection details for Teamspeak server.
+&dThis displays connection details for the StargateMC.com Teamspeak server.
+&c/help changenotes&f - Displays the change-notes for the current version of StargateMC
+&dThis list of changes is a user-friendly list of all modifications to the server since the previous version.
+&c/help economy&f - Displays help information for economy based commands.
+&dEconomy commands deal directly with your money, not necessarily the market.
+&c/help general&f - Displays help information for general commands.
+&dGeneral commands are those that are helpful but not categorised.
+&c/help bounty&f - Displays help information for bounty commands.2
+&dBounties are for revenge on your fellow players via paying for their head.
+&c/help chat&f - Displays help information for chat commands.
+&dThis aids in adjusting the audience of your chat messages.
+&c/help jobs&f - Displays help information for jobs commands.
+&dJobs are for income generation.
+&c/help factions&f - Displays help information for factions commands.
+&dFactions is for territory claiming, community building & relationships between players.
+&c/help stargates&f - Displays help information for Stargate devices.
+&dStargates are objects within the in-game world that allow instant travel accross large distances, or even worlds.
+#teamspeak
+&b[TS3] Commands
+&cHost:&f - StargateMC.com (No port or password)
+&c/ts pm <user> <message>&f - Sends a PM to a user on Teamspeak.
+&c/ts chat <message>&f - Sends a message to the Universe channel on Teamspeak without sending it to the game.
+#general
+&b[General] Commands
+&c/afk&f - Toggles Away-from-keyboard mode.
+&c/compass&f - Shows your navigational heading.
+&c/depth&f - Displays your current depth, relative to sea level.
+&c/help&f - Displays this list of commands.
+&c/motd&f - Display the message of the day.
+&c/list&f - List online players. (Admins come up red).
+&c/near&f - List any players near you.
+&c/spawn&f - Teleports you to the starting area (15 minute cooldown).
+#economy
+&b[Economy] Commands
+&c/balance&f - Displays your money balance.
+&c/balancetop&f - Displays the top 5 richest factions or players on the server.
+&c/pay&f - Pay another player from your money balance.
+#bounty
+&b[Bounty] Commands
+&c/bounty help&f - Bounty help command.
+&c/bounty list&f - Displays currently active bounties.
+&c/bounty accept <target>&f - Attempts to accept a bounty on <target> - you will be charged a fee.
+&c/bounty abandon <target>&f - Abandons your hunt for a player. You forfeit your fee.
+&c/bounty place <target> <value>&f - Places a bounty on a player. You will be charged a fee of 10%.
+&c/bounty locate <target>&f - Attempts to locate a player you are hunting. Will only yield results if you are close.
+&c/bounty view&f - Views your current bounties (placed, not on you).
+#market
+&b[Market] Commands
+&c/market&f - Displays advanced command help for the market.
+&c/market create <price-per-stack> <number-per-stack>&f - Create an auction of the items in your hand.
+&c/market history <num-transactions>&f - Create a book in your inventory of past transactions.
+&c/market pricecheck&f - Do a price check on the item in your hand (relies on the item being sold previously on the market).
+&c/market send <player> <amount>&f - Send items to a target players market-mailbox.
+&d To buy an item on the market you must be near a stall (to search and buy via a GUI interface) and a mailbox (to receive your items). 
+&dThe start area (/spawn) has one.
+#chat
+&b[Chat] Commands
+&c/helpop&f - Message any online admins (Ops).
+&c/ignore&f - Ignore and Unignore a player
+&c/msg&f - Whisper a player.
+&c/ch list&f - Lists available channels.
+&c/ch NAME &f - Switches focus to the channel NAME.
+&c/ch join NAME &f - Joins the channel NAME.
+&c/ch leave NAME &f - Leaves the channel NAME.
+&c/ch help &f - Lists additional command help for chat.
+#jobs
+&b[Jobs] Commands
+&c/jobs&f - Displays advanced command help for the jobs plugin.
+&c/jobs join <jobname>&f - Attempts to join a job you signify.
+&c/jobs leave <jobname>&f - Leaves a job you currently have. (Cannot be undone!)
+&c/jobs browse&f - Lists all jobs you have access to join.
+&c/jobs stats <player>&f - Displays a players job statistics and information.
+&c/jobs playerinfo <player> <job>&f - Displays rewards a player gets for a certain job based on their level.
+&c/jobs info <job>&f - Displays information regarding a job you know the name of.
+#factions
+&b[Factions] Commands
+&c/f help <page-number>&f - Displays help information for the factions plugin.
+&c/f create <name>&f - Creates a faction for $5000 in-game money.
+&c/f claim <radius>&f - Claims a set-radius of chunks for your faction (costs $50 per chunk and requires 1 faction power per chunk)
+&dThis is paid from the Faction Bank, see /f money below.
+&c/f player <player>&f - Shows faction information for a player (such as faction-power).
+&c/f map&f - Displays a map of nearby chunks to see what is claimed and by who.
+&c/f money&f - Transfer money between players & factions, or factions & factions.
+#stargates
+&b[Stargates]
+&fStargates operate using a 9-digit address which can be found be right clicking on a formed gate.
+&dWhen dialing a gate in the same world, you can skip the last two digits (use the first 7 of the 9).
+&fEach wormhole can stay open for 3.8mins (228 seconds) and is single-directional. 
+&fThis means you can gate from your secret base to a public area with no risk of being located.
+&cLastly, anyone caught in the vortex of an opening wormhole will be killed instantly, so stand back at least 10 blocks while it opens!
+#staff
+&b[Staff]
+&c/report <reason> <description>&f - Logs a support ticket with the StargateMC admins/mods for them to review.
+#changenotes
+§5Change notes for the current version of StargateMC:
+
+

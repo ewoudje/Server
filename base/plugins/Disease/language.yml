@@ -1,0 +1,127 @@
+################# Custom Item names & lore ##################
+
+##custom item names for bandages and cures
+bandageName: Bandage
+bandageLore: Woollen Bandage
+
+##custom names and lore for all the disease cures
+
+yellowFeverCureName: Sweetwort
+yellowFeverCureLore: Potent potion that cures Yellow Fever
+
+plagueCureName: Bitterwort
+plagueCureLore: Potent potion that cures the plague
+
+choleraCureName: Brightwater
+choleraCureLore: Curative water curing cholera
+
+swampFeverCureName: Blackbrew
+swampFeverCureLore: black murky liquid curing swamp fever
+
+pneumoniaCureName: WarmGel
+pneumoniaCureLore: warming gel that cures pneumonia
+
+whoopingCoughCureName: Smoothwater
+whoopingCoughCureLore: Potent potion that cures Whooping Cough
+
+splintCureName: LegSplint
+splintCureLore: Wooden Splint for broken leg
+
+tempCureName: SoothingPotion
+tempCureLore: Potion to temporarily sooth disease effects
+
+rabiesCureName: LycanPotion
+rabiesCureLore: Potion to cure the effects of rabies
+
+
+poxCureName: SweetBrine
+poxCureLore: Potion to cure the effects of the pox
+
+
+syringeName: Syringe
+syringeLore: For extracting blood and injecting vaccines
+
+
+
+
+###### Disease temperature & sickness Level Messages ########
+
+##messages for each temperature level
+warmMessage: You are feeling very warm.
+hotMessage: You are feeling very hot, something isn't right
+feverMessage: You are very hot and sweating, you feel feverish
+coldMessage: You start to feel very cold
+chilledMessage: You start to shiver and feel very chilled
+hypothermicMessage: You stop shivering, your hands start to turn blue
+
+
+##messages for each sickness level
+unwellMessage: You are not feeling well
+queasyMessage: you are feeling ill
+sickMessage: You are feeling very sick
+
+###evironment messages
+tempIsHotMessage: This area is hot find shelter from the sun
+tempIsBoilingMessage: This area is boiling  hot find shelter from the sun
+tempIsColdMessage: This area is very Cold find shelter or light a fire to keep warm
+tempIsFeezingMessage: This area is freezing find shelter, wear warm armour or light a fire to keep warm
+
+
+################ Disease Contract Messages ################
+
+contractYellowFever: You feel a little bite on the back of your leg which starts to tingle
+
+contractWhoopingCough: Your throat seems very dry and tickly all of a sudden
+
+contractCholera: That water tasted very odd and stale
+
+contractPox: You skin feels very itchy and spots are appearing
+
+contractPlague: The scratch the zombie caused feels sore and red
+
+contractPneumonia: You feel very cold, and your lungs rasp as you breath
+
+contractFleshWound: You catch your hand on a sharp edge, blood starts to drip from a wound.
+
+contractBrokenLeg: Your leg buckles under you as you hit the ground with a crack.
+
+contractOpenWound: You feel the blade slash your skin open, blood pours from the wound.
+
+contractSwampFever: The muddy water spashes up onto your fleshwound, making it sting and turn red
+
+contractChoking: A bit of food gets stuck at the back of your throat, you start to choke!
+
+contractRabies: The bite from the wolf starts to itch.
+
+infectedByCommandMessage: You have been infected with
+
+
+################ Heal Messages ################
+
+cureFromCommandMessage: You have been miraculously cured
+
+bandageWoundMessage: You have bandaged your wound
+
+bandageNoWoundMessage: You do not have a flesh wound
+
+splintWoundMessage: You apply the splint to your broken leg
+
+splintNoWoundMessage: You do not have a broken limb
+
+potionCureMessage: The brew has cured you of
+
+vaccineCureMessage: The vaccine injection has increased your immunity to 
+
+chokeCureMessage: The food is dislodged from your throat, you can breath again.
+
+tempCureMessage: The temporary cure has eased the effects of
+
+hospitalCureMessage: You have been cured by the hospital
+
+
+################ Miscellaneous Messages ################
+
+wrongCurePotionMessage: can only cure
+
+wrongTempCureMessage: can only ease the effects of
+
