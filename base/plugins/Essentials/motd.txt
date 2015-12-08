@@ -1,10 +1,10 @@
 §0§2§0§0§e§f
 §0§2§1§0§e§f
-&6Welcome to StargateMC (&7{Universe&6) v1.7.10, {PLAYER}&6!
+&6Welcome to StargateMC (&7Universe&6) v1.7.10, {PLAYER}&6!
 &6Type &c/help&6 for a list of commands.
 &6Type &c/list&6 to see who else is online.
 &6Type &c/help changenotes&6 to see the changes for this release!
-&3Server Version: &72.0.4&3 Build: &72250156&3 (&712.08.15&3)
-§aRelease Info: &7Second Github Test Release (Modifies the MOTD)
+&3Server Version: &7{SERVER_VERSION}&3 Build: &7{SERVER_BUILD}&3 (&7{SERVER_DATE}&3)
+§aRelease Info: &7{SERVER_MSG}
 &6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
 &6Total players joined (ever): &c{UNIQUE}
