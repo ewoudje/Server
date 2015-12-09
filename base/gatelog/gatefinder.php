@@ -66,7 +66,7 @@ foreach ($files as $file) {
                                         if (isset($world_replacements[$world])) {
                                         	$world = $world_replacements[$world];
                                         } else {
-                                        	if (is_numeric($world,"DIM")) {
+                                        	if (is_numeric(strpos($world,"DIM"))) {
                                         		$world = "Unknown";
                                         	} else {
                                         		$world = $world;
