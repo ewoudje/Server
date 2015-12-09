@@ -33,5 +33,5 @@
   "usingVariableBook": true,
   "variableBuffer": "***buffer***",
   "usingVariableBuffer": true,
-  "usingRecipientChatEvent": true
+  "usingRecipientChatEvent": false
 }
