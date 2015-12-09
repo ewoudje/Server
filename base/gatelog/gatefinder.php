@@ -18,6 +18,32 @@ if (mysqli_connect_errno()) {
      $resultnum = mysqli_query($con,"SELECT * FROM stargatemc.gates where address = '".$addr."' and server = '".$server."';");
         return mysqli_num_rows($resultnum);
 }
+$world_replacements = array(
+	
+	"DIM-548" => "Sirius B",
+	"DIM-550" => "Venus",
+	"DIM-544" => "Polongnius",
+	"DIM-553" => "Phobos",
+	"DIM-545" => "Nibiru",
+	"DIM-549" => "Mercury",
+	"DIM-603" => $null,
+	"DIM-602" => $null,
+	"DIM-543" => "Koentus",
+	"DIM-547" => "Kapteyn B",
+	"DIM-601" => $null,
+	"DIM-600" => $null,
+	"DIM-500" => "Jupiter",
+	"DIM-546" => "Fronos",
+	"DIM-542" => "Diona",
+	"DIM-552" => "Demios",
+	"DIM-554" => "Planetary Remains, P7J-981",
+	"DIM-29" => "PL9-143",
+	"DIM-28" => "P2Y-321b",
+	"DIM_SPACESTATION_40" => $null,
+	"DIM-30" => "Asteroid Belt",
+	"DIM-59" => "PL9-135",
+	"DIM88" => "Antigravity Belt"
+	);
 
 $folders = array('stargatemc');
 foreach ($folders as $folder) {
@@ -37,19 +63,15 @@ foreach ($files as $file) {
                                         $address = clean($gate[7]);
                                         $action = $gate[4];
                                         $world = $gate[5];
-					if (is_numeric(strpos("DIM_SPACESTATION40",$world))) {
-						$world = "Space Station, Orbit of PL9-131b";
-					} elseif (is_numeric(strpos("DIM-28",$world))) {
-						$world = "PL9-131b";
-					} elseif (is_numeric(strpos("DIM-29",$world))) {
-						$world = "PL9-143";
-					} elseif (is_numeric(strpos("DIM-30",$world))) {
-						$world = "Asteroid Belt";
-					} elseif (is_numeric(strpos("DIM-59",$world))) {
-						$world = "PL9-315";
-					} elseif (is_numeric(strpos("DIM88",$world))) {
-						$world = "Antigravity Belt";
-					}
+                                        if (isset($world_replacements[$world])) {
+                                        	$world = $world_replacements[$world];
+                                        } else {
+                                        	if (is_numeric($world,"DIM")) {
+                                        		$world = "Unknown";
+                                        	} else {
+                                        		$world = $world;
+                                        	}
+                                        }
                                         $coords = $gate[6];
                                         $time = $gate[0];
                                         $date = substr ( $file, NULL, 10 );
