@@ -68,7 +68,7 @@ Economy:
     Use: true
     MoneyLimit: 5000
     # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
-    TimeLimit: 3600
+    TimeLimit: 900
     # Delay between announcements about reached money limit
     # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
     AnnouncmentDelay: 30
