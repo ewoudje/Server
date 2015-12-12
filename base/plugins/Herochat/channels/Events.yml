@@ -2,7 +2,7 @@ name: Events
 nick: T
 format: '{default}'
 password: ''
-color: BLACK
+color: GRAY
 distance: 0
 shortcut: false
 verbose: true
