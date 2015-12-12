@@ -173,7 +173,7 @@
     "toggleDownPeaceful": 0.0
   },
   "chargeFactionInsteadOfPlayer": true,
-  "scoreboardTopFactions": true,
+  "scoreboardTopFactions": false,
   "scoreboardUpdate": 5,
   "denyCommandsIn": {
     "FACTION": [],
