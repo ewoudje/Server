@@ -97,5 +97,8 @@
 &c/report <reason> <description>&f - Logs a support ticket with the StargateMC admins/mods for them to review.
 #changenotes
 §5Change notes for the current version of StargateMC:
+  @DraksterAU  DraksterAU  Increased Money reward limit for jobs to 5,000 per 15 minutes, not per hour  
+  @DraksterAU  DraksterAU  Changed the identifier in chats to be StargateMC (Normally server name)    
+  @DraksterAU  DraksterAU  Targets for bounties are no longer anonymous  
 
 
