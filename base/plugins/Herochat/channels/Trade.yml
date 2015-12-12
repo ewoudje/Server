@@ -8,8 +8,7 @@ shortcut: false
 verbose: true
 crossworld: false
 muted: false
-worlds:
-- MidwayStation
+worlds: []
 bans: []
 mutes: []
 moderators: []
