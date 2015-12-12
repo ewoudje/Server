@@ -6,7 +6,7 @@ bounty-min: 1000
 bounty-fee-percent: 10
 
 #percent of the award value hunters must pay to accept a contract
-contract-fee-percent: 10
+contract-fee-percent: 5
 
 #percent of the award value that the killed target loses
 death-penalty-percent: 100
@@ -21,7 +21,7 @@ bounty-duration: 144000
 bounty-accept-delay: 15
 
 #if true, hides the target names until a bounty is accepted
-anonymous-targets: true
+anonymous-targets: false
 
 #if true, splits the owner's posting fee between hunters when a bounty is cancelled
 pay-inconvenience: true
