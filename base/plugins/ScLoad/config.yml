@@ -6,5 +6,5 @@ schematic-loader:
   use-worldedit-folder: true
   blocks-per-tick: 5000
   delay-between-ticks: 2
-  fast-place: true
+  fast-place: false
   use-permission-per-file: false
