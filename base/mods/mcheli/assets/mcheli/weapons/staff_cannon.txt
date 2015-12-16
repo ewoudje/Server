@@ -1,0 +1,18 @@
+DisplayName = Staff Cannon
+Type = MachineGun2
+Power = 45
+ModelBullet = staff_blast
+Acceleration = 6.0
+Explosion = 4
+Flaming = false
+Sight = MoveSight
+Delay = 6
+HeatCount = 1
+MaxHeatCount = 150
+SoundPitch = 1.0
+SoundVolume = 10
+
+MaxAmmo = 2000
+SuppliedNum = 2000
+Item =  3, iron_ingot
+Item =  3, gunpowder

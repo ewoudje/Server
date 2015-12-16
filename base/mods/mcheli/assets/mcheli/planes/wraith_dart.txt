@@ -1,0 +1,38 @@
+DisplayName = Wraith Dart 
+AddDisplayName = ja_JP, Wraith Dart
+
+ItemID = 30028 
+
+MaxHp = 100
+
+EnableNightVision = true
+EnableEntityRadar = true 
+EnableVtol = true 
+
+Sound = dart 
+
+Speed = 1.8 
+Float = true 
+
+VtolYaw = 0.6 
+VtolPitch = 0.6 
+ParticlesScale = 0.3 
+ThrottleUpDown = 3.0 
+MobilityYaw = 12 
+MobilityPitch = 12 
+MinRotationPitch = -80 
+MaxRotationPitch = 80 
+
+AddWeapon = wraith_pulse_cannon, 0.43, 0.3, 2.93, 0.0, -3.0 
+AddWeapon = wraith_pulse_cannon, -0.43, 0.3, 2.93, 0.0, -3.0 
+
+MaxFuel = 1200 
+FuelConsumption = 0.1 
+
+AddSeat = 0.0, 1.5, 0.0
+
+AddRecipe = "XXX", "XIX", "XX", X, lapis_block, I, coal_block
+
+BoundingBox =  1.00,  2.52,  9.00,  2.2, 1.0
+
+SmoothShading = true
