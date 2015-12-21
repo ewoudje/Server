@@ -9,11 +9,11 @@
   "removePlayerDataAfterInactiveDays": 365.0,
   "radiusClaimFailureLimit": 9,
   "radiusClaimRadiusLimit": 5,
-  "chatSetFormat": false,
-  "chatSetFormatAt": "LOWEST",
-  "chatSetFormatTo": "<{factions_relcolor}§l{factions_roleprefix}§r{factions_relcolor}{factions_name|rp}§f%1$s> %2$s",
+  "chatSetFormat": true,
+  "chatSetFormatAt": "HIGHEST",
+  "chatSetFormatTo": "<§l{factions_name} §f%1$s> %2$s",
   "chatParseTags": true,
-  "chatParseTagsAt": "LOW",
+  "chatParseTagsAt": "HIGHEST",
   "herochatFactionName": "Faction",
   "herochatFactionNick": "F",
   "herochatFactionFormat": "{color}[&l{nick}&r{color} &l{factions_roleprefix}&r{color}{factions_title|rp}{sender}{color}] &f{msg}",
@@ -25,7 +25,7 @@
   "herochatFactionWorlds": [],
   "herochatAlliesName": "Allies",
   "herochatAlliesNick": "A",
-  "herochatAlliesFormat": "{color}[&l{nick}&r&f {factions_relcolor}&l{factions_roleprefix}&r{factions_relcolor}{factions_name|rp}{sender}{color}] &f{msg}",
+  "herochatAlliesFormat": "{color}[&l{nick}&r&f &l{factions_roleprefix}&r{sender}{color}] &f{msg}",
   "herochatAlliesColor": "DARK_PURPLE",
   "herochatAlliesDistance": 0,
   "herochatAlliesIsShortcutAllowed": false,
@@ -39,10 +39,10 @@
   "colorEnemy": "RED",
   "colorNoPVP": "GOLD",
   "colorFriendlyFire": "DARK_RED",
-  "prefixLeader": "L ",
-  "prefixOfficer": "O ",
-  "prefixMember": "M ",
-  "prefixRecruit": "R ",
+  "prefixLeader": "Leader ",
+  "prefixOfficer": "Officer ",
+  "prefixMember": "Member ",
+  "prefixRecruit": "Recruit ",
   "playersWhoBypassAllProtection": [ "[BuildCraft]" ],
   "worldsNoClaiming": [ "MidwayStation" ] ,
   "worldsNoPowerLoss": [ "MidwayStation" ],
@@ -111,3 +111,5 @@
     "ZOMBIE"
   ]
 }
+
+

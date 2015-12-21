@@ -4,10 +4,10 @@
 gameTime: 440
 lobbyTime: 80
 maxDeaths: 999
-allowTeamKilling: false
+allowTeamKilling: true
 rewardBasedOnXp: true
 countMobKills: false
-cashReward: 100
+cashReward: 5000
 rewards:
 - GOLD_INGOT, 3
 - TNT, 1

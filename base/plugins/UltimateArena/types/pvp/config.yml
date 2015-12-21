@@ -1,13 +1,20 @@
 # Main configuration file for the pvp arena type
 # http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
 
-gameTime: 600
-lobbyTime: 90
+gameTime: 300
+lobbyTime: 60
 maxDeaths: 3
-allowTeamKilling: false
+allowTeamKilling: true
 countMobKills: false
 rewardBasedOnXp: true
-cashReward: 100
+cashReward: 2500
+maxPlayers: 6
+minPlayers: 2
+forceBalance: true
+joinInProgress: true
+defaultClass: assault
+blacklistedClasses:
+- spleef
 rewards:
-- GOLD_INGOT, 3
-- TNT, 1
+- 5870, 5
+- 6126:950, 1

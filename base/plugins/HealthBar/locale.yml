@@ -1,0 +1,133 @@
+CREEPER: Creeper
+SKELETON: Skeleton
+SPIDER: Spider
+GIANT: Giant
+ZOMBIE: Zombie
+SLIME: Slime
+GHAST: Ghast
+PIG_ZOMBIE: Zombie Pigman
+ENDERMAN: Enderman
+CAVE_SPIDER: Cave Spider
+SILVERFISH: Silverfish
+BLAZE: Blaze
+MAGMA_CUBE: Magma Cube
+ENDER_DRAGON: Ender Dragon
+WITHER: Wither
+BAT: Bat
+WITCH: Witch
+PIG: Pig
+SHEEP: Sheep
+COW: Cow
+CHICKEN: Chicken
+SQUID: Squid
+WOLF: Wolf
+MUSHROOM_COW: Mooshroom
+SNOWMAN: Snowman
+OCELOT: Ocelot
+IRON_GOLEM: Iron Golem
+VILLAGER: Villager
+HORSE: Horse
+MOREPLANET_EUROPASQUID: Moreplanet Europasquid
+OCEANCRAFT_OCWHALE: Oceancraft Ocwhale
+MEKANISM_ROBIT: Mekanism Robit
+MOREPLANET_VENUSIANSLIME: Moreplanet Venusianslime
+OCEANCRAFT_OCSHARK: Oceancraft Ocshark
+MOREPLANET_DUSTSLUDGELING: Moreplanet Dustsludgeling
+MOREPLANET_EVOLVEDINFECTEDSPIDERBOSS: Moreplanet Evolvedinfectedspiderboss
+MOREPLANET_GRAPPY: Moreplanet Grappy
+CUSTOMNPCS_NPCNAGAFEMALE: Customnpcs Npcnagafemale
+NATURA_FLAMESPIDERBABY: Natura Flamespiderbaby
+THERMALFOUNDATION_BLIZZ: Thermalfoundation Blizz
+CUSTOMNPCS_NPCENDERMAN: Customnpcs Npcenderman
+GALACTICRAFTMARS_SLUDGELING: Galacticraftmars Sludgeling
+MOREPLANET_SIRIUSBLAZE: Moreplanet Siriusblaze
+GALACTICRAFTMARS_CREEPERBOSS: Galacticraftmars Creeperboss
+MOREPLANET_LEMONDUCK: Moreplanet Lemonduck
+MOREPLANET_JELLYSLIME: Moreplanet Jellyslime
+OCEANCRAFT_OCROG: Oceancraft Ocrog
+MOREPLANET_EUROPACRAB: Moreplanet Europacrab
+BOTANIA_BOTANIAPIXIE: Botania Botaniapixie
+GALACTICRAFTCORE_EVOLVEDCREEPER: Galacticraftcore Evolvedcreeper
+MOREPLANET_FRONOSBOSSTEMP: Moreplanet Fronosbosstemp
+MOREPLANET_STRAWBERRYCHICKEN: Moreplanet Strawberrychicken
+MOREPLANET_TOMATO: Moreplanet Tomato
+CUSTOMNPCS_NPCORCFEMALE: Customnpcs Npcorcfemale
+MEKANISM_BABYSKELETON: Mekanism Babyskeleton
+CUSTOMNPCS_NPCDWARFFEMALE: Customnpcs Npcdwarffemale
+NATURA_FLAMESPIDER: Natura Flamespider
+MOREPLANET_CREAMGOLEM: Moreplanet Creamgolem
+MOREPLANET_FRONOSVILLAGER: Moreplanet Fronosvillager
+OCEANCRAFT_OCCANNIBAL: Oceancraft Occannibal
+MOREPLANET_FROZENSLUDGELING: Moreplanet Frozensludgeling
+MOREPLANET_EVOLVEDENDERMAN: Moreplanet Evolvedenderman
+MOREPLANET_SPACESTARFISH: Moreplanet Spacestarfish
+OCEANCRAFT_OCSEATURTLE: Oceancraft Ocseaturtle
+GALACTICRAFTCORE_EVOLVEDSPIDER: Galacticraftcore Evolvedspider
+MOREPLANET_INFECTEDZOMBIE: Moreplanet Infectedzombie
+OCEANCRAFT_OCCRAB: Oceancraft Occrab
+MOREPLANET_CREAMSLIME: Moreplanet Creamslime
+OCEANCRAFT_OCFISHY: Oceancraft Ocfishy
+CUSTOMNPCS_NPCZOMBIEFEMALE: Customnpcs Npczombiefemale
+CUSTOMNPCS_NPCSLIME: Customnpcs Npcslime
+MOREPLANET_SPACEWOLF: Moreplanet Spacewolf
+MOREPLANET_MARSHMALLOW: Moreplanet Marshmallow
+BOTANIA_BOTANIADOPPLEGANGER: Botania Botaniadoppleganger
+OCEANCRAFT_OCANGLERFISH: Oceancraft Ocanglerfish
+GALACTICRAFTCORE_EVOLVEDZOMBIE: Galacticraftcore Evolvedzombie
+MOREPLANET_DIONAMINIONCREEPER: Moreplanet Dionaminioncreeper
+CUSTOMNPCS_NPCDWARFMALE: Customnpcs Npcdwarfmale
+MCA_ENTITYHUMAN: Mca Entityhuman
+NATURA_NITROCREEPER: Natura Nitrocreeper
+CUSTOMNPCS_NPCPONY: Customnpcs Npcpony
+MOREPLANET_KOENTUSIANVILLAGER: Moreplanet Koentusianvillager
+NATURA_IMP: Natura Imp
+MOREPLANET_KOENTUSSLUDGELING: Moreplanet Koentussludgeling
+CUSTOMNPCS_NPCENDERCHIBI: Customnpcs Npcenderchibi
+CUSTOMNPCS_NPCGOLEM: Customnpcs Npcgolem
+MOREPLANET_BEARRY: Moreplanet Bearry
+MOREPLANET_VENUSIANBLAZE: Moreplanet Venusianblaze
+TCONSTRUCT_CRYSTAL: Tconstruct Crystal
+BUILDCRAFT|ROBOTICS_BCROBOT: Buildcraft|robotics Bcrobot
+GALACTICRAFTCORE_ALIENVILLAGER: Galacticraftcore Alienvillager
+MOREPLANET_MILKCOW: Moreplanet Milkcow
+CUSTOMNPCS_NPCELFFEMALE: Customnpcs Npcelffemale
+OPENBLOCKS_MINIME: Openblocks Minime
+OCEANCRAFT_OCORCA: Oceancraft Ocorca
+OCEANCRAFT_OCKINGCRAB: Oceancraft Ockingcrab
+TCONSTRUCT_KINGSLIME: Tconstruct Kingslime
+GALACTICRAFTMARS_SLIMELING: Galacticraftmars Slimeling
+MOREPLANET_VENUSIANVILLAGER: Moreplanet Venusianvillager
+CUSTOMNPCS_NPCVILLAGER: Customnpcs Npcvillager
+CUSTOMNPCS_NPCORCFMALE: Customnpcs Npcorcfmale
+OPENBLOCKS_LUGGAGE: Openblocks Luggage
+CUSTOMNPCS_NPCDRAGON: Customnpcs Npcdragon
+MOREPLANET_CHEESECOW: Moreplanet Cheesecow
+MOREPLANET_KIWI: Moreplanet Kiwi
+GALACTICRAFTCORE_EVOLVEDSKELETONBOSS: Galacticraftcore Evolvedskeletonboss
+OCEANCRAFT_OCSEAGULL: Oceancraft Ocseagull
+MOREPLANET_GIANTWORM: Moreplanet Giantworm
+TCONSTRUCT_EDIBLESLIME: Tconstruct Edibleslime
+CUSTOMNPCS_NPCELFMALE: Customnpcs Npcelfmale
+MOREPLANET_BERRY: Moreplanet Berry
+MOREPLANET_CHEESECUBEBOSS: Moreplanet Cheesecubeboss
+MOREPLANET_INFECTEDWORM: Moreplanet Infectedworm
+MOREPLANET_CREAMCAT: Moreplanet Creamcat
+CUSTOMNPCS_CUSTOMNPC: Customnpcs Customnpc
+CUSTOMNPCS_NPCHUMANFEMALE: Customnpcs Npchumanfemale
+CUSTOMNPCS_NPCHUMANMALE: Customnpcs Npchumanmale
+MOREPLANET_SIRIUSMAGMACUBE: Moreplanet Siriusmagmacube
+MOREPLANET_DIONACREEPERBOSS: Moreplanet Dionacreeperboss
+FORESTRY_BUTTERFLYGE: Forestry Butterflyge
+MOREPLANET_EVOLVEDWITCH: Moreplanet Evolvedwitch
+CUSTOMNPCS_NPCCRYSTAL: Customnpcs Npccrystal
+CUSTOMNPCS_NPCZOMBIEMALE: Customnpcs Npczombiemale
+MODJ_STARMINER_STARSQUID: Modj Starminer Starsquid
+CUSTOMNPCS_NPCNAGAMALE: Customnpcs Npcnagamale
+CUSTOMNPCS_NPCFURRYMALE: Customnpcs Npcfurrymale
+CUSTOMNPCS_NPCSKELETON: Customnpcs Npcskeleton
+MOREPLANET_CHEESESLIME: Moreplanet Cheeseslime
+MOREPLANET_SIRIUSCREEPER: Moreplanet Siriuscreeper
+GALACTICRAFTCORE_EVOLVEDSKELETON: Galacticraftcore Evolvedskeleton
+CUSTOMNPCS_NPCFURRYFEMALE: Customnpcs Npcfurryfemale
+MOREPLANET_EVOLVEDSIRIUSBLAZEBOSS: Moreplanet Evolvedsiriusblazeboss
+MOREPLANET_MELON: Moreplanet Melon

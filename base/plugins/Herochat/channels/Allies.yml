@@ -1,7 +1,6 @@
 name: Allies
 nick: A
-format: '{color}[&l{nick}&r&f {factions_relcolor}&l{factions_roleprefix}&r{factions_relcolor}{factions_name|rp}{sender}{color}]
-  &f{msg}'
+format: '{default}'
 password: ''
 color: DARK_PURPLE
 distance: 0

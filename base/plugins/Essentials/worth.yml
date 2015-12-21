@@ -1,0 +1,1041 @@
+worth:
+  log: 2.0
+  wool:
+    '0': 20
+  leaves: 1.0
+  sapling:
+    '0': 0.0
+    '*': 2.5
+  stonebutton: 6.0
+  wood:
+    '0': 0.0
+  arrow: 3.5
+  diamondpickaxe: 650.0
+  rawfish: 5.0
+  minecart: 23.0
+  leatherchestplate: 85.0
+  storageminecart: 30.0
+  feather: 3.0
+  goldchestplate: 6.5
+  mushroomsoup: 4.5
+  bread: 30.0
+  stationarywater: 1.0
+  workbench: 2.5
+  stonehoe: 2.5
+  brownmushroom: 2.0
+  mossycobblestone: 90.0
+  diamondhoe: 400.0
+  woodsword: 1.0
+  torch: 4.0
+  grass:
+    '0': 0.0
+  poweredminecart: 32.0
+  snowball: 1.0
+  goldenapple: 100.0
+  leatherleggings: 75.0
+  diamondaxe: 650.0
+  slimeball: 50.0
+  fence: 1.0
+  stonespade: 1.5
+  claybrick: 5.0
+  noteblock: 36.0
+  ironaxe: 22.0
+  coalore: 15.0
+  clayball: 3.0
+  fishingrod: 10.0
+  ironhoe: 22.0
+  goldrecord: 100.0
+  ironpickaxe: 22.0
+  irondoor: 22.0
+  bucket: 22.0
+  redrose: 2.0
+  grilledpork: 7.0
+  gravel: 1.0
+  wooddoor: 3.0
+  chainmailhelmet: 40.0
+  ironchestplate: 22.0
+  diamondblock: 2000.0
+  diamondhelmet: 1000.0
+  goldhelmet: 6.0
+  redstonetorchon: 32.0
+  ironspade: 22.0
+  furnace: 8.5
+  ironsword: 22.0
+  dispenser: 58.0
+  woodaxe: 2.0
+  seeds: 2.0
+  painting: 25.0
+  woodplate: 1.0
+  redstoneore: 30.0
+  diamondspade: 210.0
+  waterbucket: 40.0
+  water: 1.0
+  bedrock: 100.0
+  irondoorblock: 15.0
+  goldhoe: 6.0
+  sand: 1.0
+  goldsword: 6.0
+  stoneaxe: 3.0
+  bookshelf: 140.0
+  ironblock: 190.0
+  jackolantern: 56.0
+  boat: 3.0
+  diamondchestplate: 1750.0
+  redstonewire: 30.0
+  redmushroom: 2.0
+  string: 5.0
+  stoneplate: 6.0
+  wallsign: 1.0
+  cactus: 10.0
+  sulphur: 20.0
+  rails: 22.0
+  ironore: 18.0
+  leatherhelmet: 52.0
+  stone:
+    '0': 0.1
+  egg: 1.0
+  diamondore: 200.0
+  woodhoe: 2.0
+  goldleggings: 6.0
+  chainmailleggings: 50.0
+  yellowflower: 2.0
+  ironhelmet: 22.0
+  obsidian: 130.0
+  dirt:
+    '0': 0.0
+  leather: 10.0
+  leatherboots: 42.0
+  lever: 1.0
+  cobblestone:
+    '0': 0.0
+  cake: 180.0
+  woodstairs: 1.0
+  ironingot: 22.0
+  goldore: 45.0
+  pumpkin: 50.0
+  bed: 68.0
+  watch: 6.0
+  ironleggings: 22.0
+  sign: 1.5
+  doublestep: 1.0
+  woodpickaxe: 2.0
+  stonepickaxe: 4.0
+  chainmailboots: 30.0
+  diamondleggings: 1500.0
+  cookedfish: 7.0
+  saddle: 100.0
+  cobblestonestairs: 1.5
+  tnt: 100.0
+  glowingredstoneore: 30.0
+  apple: 10.0
+  woodspade: 1.0
+  goldingot: 105.0
+  diode: 110.0
+  soil: 1.0
+  clay: 12.0
+  goldblock: 450.0
+  stick: 0.25
+  paper: 10.0
+  brick: 21.0
+  stationarylava: 1.0
+  chest: 4.0
+  sandstone: 3.0
+  goldpickaxe: 6.0
+  compass: 22.0
+  sugarcane: 10.0
+  diamondsword: 420.0
+  goldboots: 6.0
+  sponge: 80.0
+  stonesword: 2.5
+  coal: 15.0
+  goldaxe: 6.0
+  bone: 2.0
+  diamond: 200.0
+  glass: 3.0
+  goldspade: 6.0
+  lapisblock: 950.0
+  lavabucket: 40.0
+  wheat: 9.0
+  ladder: 0.5
+  sugarcaneblock: 15.0
+  bowl: 0.5
+  chainmailchestplate: 40.0
+  diamondboots: 850.0
+  lapisore: 100.0
+  lava: 25.0
+  milkbucket: 40.0
+  redstone: 32.0
+  greenrecord: 100.0
+  inksack: 10.0
+  glowstonedust: 10.0
+  book: 45.0
+  bow: 15.0
+  ironboots: 22.0
+  step: 1.5
+  sugar: 10.0
+  air:
+    '-1': 147.75
+  advancedsolarpanelblockadvsolarpanel:
+    '0': 4793.7
+    '1': 5664.0
+  advancedsolarpaneladvancedsolarhelmet:
+    '1': 3551.1
+  advancedsolarpanelhybridsolarhelmet:
+    '1': 4918.05
+  advancedsolarpanelaspcraftingitems:
+    '0': 6916.05
+    '2': 3716.55
+    '3': 7089.9
+    '5': 5419.5
+    '6': 5537.85
+    '8': 3613.5
+    '9': 6111.15
+    '11': 7388.55
+    '12': 2077.5
+    '13': 7260.0
+  bibliocraftbibliotypewriter:
+    '3': 1142.1
+    '4': 5955.6
+    '8': 1023.3
+    '11': 1709.1
+    '15': 2430.15
+  bibliocraftbiblioclock:
+    '0': 3573.9
+  bibliocraftbiblioflatpainting:
+    '0': 3044.55
+  bibliocraftbibliopaintpress:
+    '0': 287.1
+  bibliocraftbiblioswordpedestal:
+    '0': 3696.15
+  bibliocraftitemseatback2:
+    '0': 6300.6
+  bibliocraftitemseatback3:
+    '0': 2122.05
+  bibliocraftitemseatback4:
+    '0': 6212.85
+  bibliocraftitemseatback5:
+    '0': 4628.85
+  bibliocraftitembibliomaptool:
+    '0': 1063.8
+  bibliocraftitembibliowaypointcompass:
+    '0': 744.3
+  botaniaaltar:
+    '0': 6316.65
+  buildcraftcoremaplocation:
+    '0': 2822.25
+  buildcraftcorelist:
+    '0': 7352.1
+  buildcraftcorewoodengearitem:
+    '0': 3540.0
+  buildcraftcorestonegearitem:
+    '0': 2172.15
+  buildcraftcoreirongearitem:
+    '0': 3919.5
+  buildcraftcoregoldgearitem:
+    '0': 2490.6
+  buildcraftcorediamondgearitem:
+    '0': 6944.85
+  buildcraftcoreengineblock:
+    '0': 4290.75
+    '1': 951.45
+    '2': 2575.95
+  buildcraftenergybucketoil:
+    '0': 509.1
+  buildcraftenergybucketfuel:
+    '0': 6689.1
+  buildcraftfactoryminingwellblock:
+    '0': 4335.3
+  buildcraftfactoryautoworkbenchblock:
+    '0': 2367.6
+  buildcraftbuildersframeblock:
+    '0': 5401.5
+  buildcraftbuildersmachineblock:
+    '0': 2129.4
+  buildcraftfactorytankblock:
+    '0': 1179.6
+  buildcraftfactorypumpblock:
+    '0': 4056.0
+  buildcraftfactoryfloodgateblock:
+    '0': 4993.05
+  buildcraftfactoryrefineryblock:
+    '0': 6954.75
+  buildcraftfactoryblockhopper:
+    '0': 1429.95
+  buildcraftsiliconlasertableblock:
+    '0': 3377.25
+    '1': 948.15
+    '2': 6348.3
+    '3': 911.7
+    '4': 4463.25
+  buildcraftroboticszoneplan:
+    '0': 2464.8
+  buildcraftroboticsrequester:
+    '0': 4238.85
+  buildcraftsiliconredstonechipset:
+    '0': 4653.15
+    '1': 4857.75
+    '2': 498.3
+    '3': 6865.5
+    '4': 4896.45
+    '5': 4331.25
+    '6': 3085.35
+    '7': 4851.6
+  buildcraftroboticsredstoneboard:
+    '0': 3954.3
+  buildcraftsiliconredstonecrystal:
+    '0': 6458.25
+  buildcrafttransportfilteredbufferblock:
+    '0': 1143.9
+  buildcrafttransportpipewaterproof:
+    '0': 2096.55
+  buildcrafttransportitembuildcraftpipepipeitemswood:
+    '0': 5160.75
+  buildcrafttransportitembuildcraftpipepipeitemsemerald:
+    '0': 6230.55
+  buildcrafttransportitembuildcraftpipepipeitemscobblestone:
+    '0': 401.4
+  buildcrafttransportitembuildcraftpipepipeitemsstone:
+    '0': 3029.25
+  buildcrafttransportitembuildcraftpipepipeitemsquartz:
+    '0': 2386.95
+  buildcrafttransportitembuildcraftpipepipeitemsiron:
+    '0': 6816.9
+  buildcrafttransportitembuildcraftpipepipeitemsgold:
+    '0': 1407.3
+  buildcrafttransportitembuildcraftpipepipeitemsdiamond:
+    '0': 7307.1
+  buildcrafttransportitembuildcraftpipepipeitemsobsidian:
+    '0': 7170.3
+  buildcrafttransportitembuildcraftpipepipeitemslapis:
+    '0': 3056.55
+  buildcrafttransportitembuildcraftpipepipeitemsdaizuli:
+    '0': 7115.4
+  buildcrafttransportitembuildcraftpipepipeitemssandstone:
+    '0': 1945.65
+  buildcrafttransportitembuildcraftpipepipeitemsvoid:
+    '0': 3055.05
+  buildcrafttransportitembuildcraftpipepipeitemsemzuli:
+    '0': 6585.75
+  buildcrafttransportitembuildcraftpipepipeitemsstripes:
+    '0': 6364.65
+  buildcrafttransportitembuildcraftpipepipeitemsclay:
+    '0': 3648.45
+  buildcrafttransportitembuildcraftpipepipefluidswood:
+    '0': 6128.1
+  buildcrafttransportitembuildcraftpipepipefluidscobblestone:
+    '0': 3919.35
+  buildcrafttransportitembuildcraftpipepipefluidsstone:
+    '0': 623.85
+  buildcrafttransportitembuildcraftpipepipefluidsquartz:
+    '0': 6035.4
+  buildcrafttransportitembuildcraftpipepipefluidsiron:
+    '0': 6881.25
+  buildcrafttransportitembuildcraftpipepipefluidsgold:
+    '0': 890.7
+  buildcrafttransportitembuildcraftpipepipefluidsemerald:
+    '0': 7312.95
+  buildcrafttransportitembuildcraftpipepipefluidsdiamond:
+    '0': 6623.85
+  buildcrafttransportitembuildcraftpipepipefluidssandstone:
+    '0': 1680.6
+  buildcrafttransportitembuildcraftpipepipefluidsvoid:
+    '0': 232.35
+  buildcrafttransportitembuildcraftpipepipepowerwood:
+    '0': 707.55
+  buildcrafttransportitembuildcraftpipepipepowercobblestone:
+    '0': 7123.5
+  buildcrafttransportitembuildcraftpipepipepowerstone:
+    '0': 5863.8
+  buildcrafttransportitembuildcraftpipepipepowerquartz:
+    '0': 4173.0
+  buildcrafttransportitembuildcraftpipepipepoweriron:
+    '0': 4633.5
+  buildcrafttransportitembuildcraftpipepipepowergold:
+    '0': 3250.95
+  buildcrafttransportitembuildcraftpipepipepowerdiamond:
+    '0': 2642.25
+  buildcrafttransportitembuildcraftpipepipepoweremerald:
+    '0': 329.4
+  buildcrafttransportitembuildcraftpipepipepowersandstone:
+    '0': 3917.7
+  buildcrafttransportitembuildcraftpipepipestructurecobblestone:
+    '0': 1543.35
+  buildcrafttransportpipeplug:
+    '0': 4453.8
+  buildcrafttransportpipelens:
+    '0': 4964.7
+    '16': 4924.8
+  buildcraftroboticsrobotstation:
+    '0': 6091.8
+  buildcrafttransportgatecopier:
+    '0': 1576.2
+  compactsolarscompactsolarblock:
+    '0': 4781.25
+    '1': 551.1
+  compactsolarssolarhatlv:
+    '0': 7254.9
+  compactsolarssolarhatmv:
+    '0': 4649.4
+  computercraftcccomputer:
+    '0': 3860.85
+    '16384': 416.85
+  computercraftccperipheral:
+    '0': 2093.1
+    '3': 3623.1
+    '2': 5660.7
+    '4': 243.75
+    '1': 282.9
+  computercraftcccable:
+    '1': 6809.4
+    '0': 2025.6
+  computercraftccturtle:
+    '0': 2172.45
+  computercrafttreasuredisk:
+    '0': 4764.9
+  computercraftprintout:
+    '0': 7082.1
+    '1': 4530.3
+    '2': 4363.35
+  computercraftpocketcomputer:
+    '0': 4253.1
+    '1': 3856.5
+  forestrycore:
+    '0': 1343.55
+  forestryresourcestorage:
+    '0': 5234.55
+    '1': 6290.55
+    '2': 2670.75
+    '3': 4557.0
+  forestrypods:
+    '0': 3872.25
+  forestryarboriculture:
+    '0': 2065.5
+  forestryengine:
+    '0': 589.2
+    '1': 4085.85
+    '2': 2343.6
+    '3': 1695.75
+    '4': 2773.2
+  forestryfactory:
+    '0': 6497.4
+    '1': 2592.3
+    '2': 1987.05
+    '3': 2533.5
+    '4': 5071.95
+    '5': 569.25
+    '6': 906.3
+    '7': 359.4
+  forestryfactory2:
+    '0': 3008.85
+    '1': 5260.35
+    '2': 2581.5
+  forestrymushroom:
+    '0': 6017.4
+    '1': 7146.0
+  forestryffarm:
+    '0': 5227.5
+    '2': 895.35
+    '3': 7189.95
+    '4': 925.05
+    '5': 83.55
+  forestrylepidopterology:
+    '0': 4775.7
+  forestrymail:
+    '0': 4439.55
+    '1': 947.55
+    '2': 1536.0
+  forestryfertilizerbio:
+    '0': 790.35
+  forestryfertilizercompound:
+    '0': 4355.85
+  forestryapatite:
+    '0': 5969.1
+  forestryresearchnote:
+    '0': 5897.55
+  forestryingotcopper:
+    '0': 1375.5
+  forestryingottin:
+    '0': 6542.85
+  forestryingotbronze:
+    '0': 4421.1
+  forestrywrench:
+    '0': 2948.85
+  forestrypipette:
+    '0': 4933.8
+  forestrysturdymachine:
+    '0': 6267.15
+  forestryhardenedmachine:
+    '0': 4084.8
+  forestryimpregnatedcasing:
+    '0': 7222.35
+  forestrycraftingmaterial:
+    '0': 3724.95
+    '1': 390.6
+    '2': 4196.85
+    '3': 4809.9
+    '4': 6375.15
+    '5': 2616.45
+    '6': 172.35
+  forestrynaturalisthelmet:
+    '0': 1383.15
+  forestrypeat:
+    '0': 3387.45
+  forestryash:
+    '0': 546.45
+  forestrybituminouspeat:
+    '0': 5970.3
+  forestrygearbronze:
+    '0': 1452.6
+  forestrygearcopper:
+    '0': 3037.65
+  forestrygeartin:
+    '0': 4593.3
+  forestrychipsets:
+    '0': 210.45
+    '1': 1488.6
+    '2': 1428.3
+    '3': 6561.3
+  forestryoakstick:
+    '0': 2023.95
+  forestrywoodpulp:
+    '0': 4458.45
+  forestrybronzepickaxe:
+    '0': 765.45
+  forestrybronzeshovel:
+    '0': 454.05
+  forestrykitshovel:
+    '0': 2701.2
+  forestrykitpickaxe:
+    '0': 3569.85
+  forestrymouldywheat:
+    '0': 5419.5
+  forestrydecayingwheat:
+    '0': 6929.1
+  forestrymulch:
+    '0': 6114.0
+  forestryiodinecapsule:
+    '0': 7271.25
+  forestryphosphor:
+    '0': 1222.2
+  forestrybeeswax:
+    '0': 5545.5
+  forestryrefractorywax:
+    '0': 6100.2
+  forestryfruits:
+    '0': 4070.4
+    '1': 2966.7
+    '2': 6319.8
+    '3': 499.2
+    '4': 6935.55
+    '5': 2297.7
+    '6': 3654.0
+  forestrycanempty:
+    '0': 2004.0
+  forestrybucketethanol:
+    '0': 4329.75
+  forestrybucketbiomass:
+    '0': 1447.8
+  forestrybucketglass:
+    '0': 4417.8
+  forestrybuckethoney:
+    '0': 274.65
+  forestrybucketice:
+    '0': 5970.3
+  forestrybucketjuice:
+    '0': 5535.75
+  forestrybucketseedoil:
+    '0': 6105.6
+  forestrybucketshortmead:
+    '0': 1809.75
+  forestrybeealyzer:
+    '0': 1078.8
+  forestryimprinter:
+    '0': 2705.7
+  forestryframeuntreated:
+    '0': 1041.45
+  forestryframeproven:
+    '0': 1123.5
+  forestryhoneydrop:
+    '0': 6997.5
+  forestrypollen:
+    '0': 7324.95
+    '1': 5203.5
+  forestrypropolis:
+    '0': 6339.15
+    '1': 4880.1
+    '3': 1287.0
+  forestryhoneydew:
+    '0': 5202.6
+  forestryroyaljelly:
+    '0': 3565.5
+  forestrywaxcast:
+    '0': 893.25
+  forestryapiaristhelmet:
+    '0': 4804.8
+  forestryapiaristchest:
+    '0': 4000.65
+  forestryapiaristlegs:
+    '0': 5992.2
+  forestryapiaristboots:
+    '0': 2951.4
+  forestryscoop:
+    '0': 6396.9
+  forestrygrafter:
+    '0': 1333.2
+  forestrygrafterproven:
+    '0': 7348.35
+  forestryhoneyedslice:
+    '0': 336.0
+  forestrybeverage:
+    '0': 2523.9
+    '1': 3022.8
+  forestryambrosia:
+    '0': 7313.1
+  forestryhoneypot:
+    '0': 3466.05
+  forestryinfuser:
+    '0': 5419.35
+  forestryflutterlyzer:
+    '0': 5845.05
+  galacticraftcoretilelandingpad:
+    '0': 5239.2
+    '1': 2806.95
+  galacticraftcoretileoxygencollector:
+    '0': 5919.9
+  galacticraftcoretileoxygencompressor:
+    '0': 1191.3
+    '4': 2663.1
+  galacticraftcoretiledistributor:
+    '0': 1413.0
+  galacticraftcoretilesealer:
+    '0': 3938.85
+  galacticraftcoretileoxygendetector:
+    '0': 4492.5
+  galacticraftcoretileoxygenpipe:
+    '0': 5016.6
+  galacticraftcoretilerefinery:
+    '0': 1611.15
+  galacticraftcoretilefuelloader:
+    '0': 3073.65
+  galacticraftcoretilecargo:
+    '0': 2451.9
+    '4': 882.0
+  galacticraftcoretilerocketworkbench:
+    '0': 2579.7
+  galacticraftcoretilegcblockcore:
+    '9': 6766.5
+    '10': 4076.7
+    '11': 3297.45
+    '12': 2692.2
+  galacticraftcoretileairlockframe:
+    '0': 3774.0
+    '1': 4339.5
+  galacticraftcoretilesolar:
+    '0': 5278.35
+    '4': 1336.8
+  galacticraftcoretilemachine:
+    '0': 4333.35
+    '12': 523.95
+  galacticraftcoretilemachine2:
+    '0': 5703.15
+    '4': 267.15
+    '8': 5169.75
+  galacticraftcoretilemachinetiered:
+    '0': 3973.95
+    '4': 4252.5
+    '8': 2202.9
+    '12': 3919.5
+  galacticraftcoretilealuminumwire:
+    '0': 2646.45
+    '1': 2266.5
+  galacticraftcoretileglowstonetorch:
+    '0': 898.65
+  galacticraftcoretilecheeseblock:
+    '0': 3490.95
+  galacticraftcoretilespinthruster:
+    '0': 1392.3
+  galacticraftcoretileviewscreen:
+    '0': 1107.9
+  galacticraftcoretiletelemetry:
+    '0': 6802.05
+  galacticraftcoretilearclamp:
+    '0': 4641.0
+  galacticraftcoreitemspaceship:
+    '0': 5524.95
+  galacticraftcoreitemoxygenmask:
+    '0': 606.75
+  galacticraftcoreitemoxygengear:
+    '0': 4393.05
+  galacticraftcoreitemoxygentanklightfull:
+    '0': 567.0
+  galacticraftcoreitemoxygentankmedfull:
+    '0': 2819.25
+  galacticraftcoreitemoxygentankheavyfull:
+    '0': 3843.0
+  galacticraftcoreitemsensorlens:
+    '0': 6113.55
+  galacticraftcoreitemsensorglasses:
+    '0': 1255.8
+  galacticraftcoreitemcanister:
+    '0': 1322.55
+    '1': 3300.0
+  galacticraftcoreitemairvent:
+    '0': 684.6
+  galacticraftcoreitemairfan:
+    '0': 6679.05
+  galacticraftcoreitemoxygenconcentrator:
+    '0': 2938.2
+  galacticraftcoreitemengine:
+    '0': 629.25
+    '1': 3476.55
+  galacticraftcoreitemheavyplating:
+    '0': 5127.45
+  galacticraftcoreitemnosecone:
+    '0': 881.25
+  galacticraftcoreitemrocketfins:
+    '0': 2514.3
+  galacticraftcoreitemsteelpole:
+    '0': 769.8
+  galacticraftcoreitemcanvas:
+    '0': 1088.1
+  galacticraftcoreitemoilcanisterpartial:
+    '1': 3232.35
+    '1001': 3040.8
+  galacticraftcoreitemfuelcanisterpartial:
+    '1': 7080.15
+  galacticraftcoreitemoilextractor:
+    '0': 640.2
+  galacticraftcoreitemschematic:
+    '0': 1038.75
+    '1': 1371.9
+  galacticraftcoreitembuggymat:
+    '0': 1506.9
+    '1': 5387.85
+    '2': 4094.25
+  galacticraftcoreitembasicitem:
+    '0': 3146.25
+    '1': 1161.6
+    '2': 3871.05
+    '6': 884.55
+    '7': 1559.55
+    '8': 6309.15
+    '9': 849.0
+    '10': 5147.7
+    '11': 2425.2
+    '12': 5318.7
+    '13': 7250.25
+    '14': 6604.2
+    '19': 942.0
+  galacticraftcoreitembattery:
+    '0': 5957.1
+  galacticraftcoreitemstandardwrench:
+    '0': 4771.95
+  galacticraftcoreitemmeteoricironingot:
+    '0': 713.85
+    '1': 1159.8
+  galacticraftcoreitemflag:
+    '0': 4681.5
+  galacticraftcoreitemparachute:
+    '0': 3939.45
+  galacticraftmarstilewalkway:
+    '0': 3686.25
+  galacticraftmarstilewalkwaywire:
+    '0': 5727.75
+  galacticraftmarstilewalkwayoxygenpipe:
+    '0': 703.5
+  galacticraftmarstilebeamreflector:
+    '0': 5760.6
+  galacticraftmarstilebeamreceiver:
+    '0': 5615.7
+  galacticraftmarstiletelepadshort:
+    '0': 1319.1
+  galacticraftmarstilemars:
+    '8': 6084.9
+  galacticraftmarstilemarsmachine:
+    '0': 670.05
+    '4': 539.85
+    '8': 2645.7
+  galacticraftmarstilemarsmachinet2:
+    '0': 1655.85
+    '4': 4004.1
+    '8': 2818.2
+  galacticraftmarstilehydrogenpipe:
+    '0': 360.15
+  galacticraftmarsitemgrapple:
+    '0': 4543.35
+  galacticraftmarsitemitemtier3rocket:
+    '0': 1458.75
+  galacticraftmarsitemitembasicasteroids:
+    '0': 2700.3
+    '1': 2556.0
+    '2': 4977.3
+    '3': 1295.85
+    '4': 6040.65
+    '5': 1740.45
+    '6': 3508.8
+    '7': 1968.45
+    '8': 4332.45
+  galacticraftmarsitemmethanecanisterpartial:
+    '1': 5462.55
+  galacticraftmarsitemcanisterpartiallox:
+    '1': 5497.8
+  galacticraftmarsitemcanisterpartialln2:
+    '1': 3617.25
+  galacticraftmarsitematmosphericvalve:
+    '0': 138.75
+  galacticraftmarsitemheavynosecone:
+    '0': 6956.1
+  galacticraftmarsitemcarbonfragments:
+    '0': 3853.8
+  galacticraftmarsitemnull:
+    '1': 1366.35
+    '2': 3990.6
+    '3': 906.0
+    '4': 5046.45
+    '5': 7087.65
+    '6': 4428.3
+  galacticraftmarsitemspaceshiptier2:
+    '0': 1852.5
+    '11': 5028.3
+  gravisuiteadvddrill:
+    '1': 4487.1
+  gravisuiteadvchainsaw:
+    '1': 263.4
+  ic2blockrubsapling:
+    '0': 3076.2
+  ic2blockrubber:
+    '0': 4286.25
+  ic2blockfenceiron:
+    '0': 5801.4
+  ic2blockalloy:
+    '0': 6163.8
+  ic2blockbasalt:
+    '0': 2021.55
+  ic2blockalloyglass:
+    '0': 345.75
+  ic2blockscaffold:
+    '0': 102.15
+  ic2blockironscaffold:
+    '0': 5494.5
+  ic2blockmetal:
+    '0': 982.65
+    '1': 2747.7
+    '2': 1161.75
+    '3': 5533.2
+    '4': 2365.05
+    '5': 905.1
+  ic2blockkineticgenerator:
+    '0': 4170.9
+    '1': 6205.05
+    '2': 3242.7
+    '3': 6157.95
+  ic2blockheatgenerator:
+    '0': 425.1
+    '1': 5148.9
+    '2': 3256.2
+    '3': 5591.7
+  ic2blockgenerator:
+    '0': 6903.0
+    '1': 1369.95
+    '2': 381.45
+    '3': 2111.25
+    '4': 5458.2
+    '5': 5016.3
+    '6': 4995.75
+    '7': 4952.55
+    '8': 6925.65
+    '9': 2052.0
+  ic2blockreactorchamber:
+    '0': 6102.9
+  ic2blockreactorfluidport:
+    '0': 5354.55
+  ic2blockreactoraccesshatch:
+    '0': 969.45
+  ic2blockreactorredstoneport:
+    '0': 964.2
+  ic2blockreactorvessel:
+    '0': 5361.0
+  ic2blockelectric:
+    '3': 3724.95
+    '4': 6895.65
+    '0': 1907.1
+  ic2blockmachine:
+    '0': 1999.35
+    '1': 2838.6
+    '2': 7412.85
+    '3': 202.5
+    '4': 7329.45
+    '5': 3353.25
+    '6': 437.1
+    '7': 3825.15
+    '8': 4750.65
+    '9': 6870.0
+    '10': 1277.7
+    '11': 3264.3
+    '12': 2929.05
+    '13': 7414.2
+    '15': 6545.1
+  ic2blockmachine2:
+    '0': 3714.0
+    '1': 3447.0
+    '2': 5742.0
+    '3': 3200.85
+    '4': 1544.55
+    '5': 6836.7
+    '6': 5073.75
+    '7': 6501.45
+    '8': 5828.1
+    '9': 711.75
+    '10': 3742.05
+    '11': 460.8
+    '12': 1056.75
+    '13': 3531.6
+    '14': 1866.15
+    '15': 1383.45
+  ic2blockmachine3:
+    '0': 5464.05
+    '1': 5894.7
+    '2': 5139.9
+    '3': 2460.0
+    '4': 1024.65
+    '5': 1180.5
+    '6': 1297.8
+    '7': 7455.0
+    '8': 4705.2
+  ic2blockminingpipe:
+    '0': 7449.3
+  ic2blockminingtip:
+    '0': 4728.3
+  ic2blockpersonal:
+    '0': 4828.05
+  ic2itemrubber:
+    '0': 6846.15
+  ic2itemrecipepart:
+    '0': 275.7
+    '1': 153.9
+    '2': 54.15
+    '3': 2366.25
+    '4': 1853.25
+    '5': 5525.7
+    '6': 3074.55
+    '7': 7220.85
+    '8': 825.9
+    '11': 6309.6
+  ic2itemplates:
+    '0': 242.1
+    '1': 298.8
+    '2': 5121.75
+    '3': 5037.75
+    '4': 3319.5
+    '6': 5615.4
+    '7': 6066.3
+    '8': 6369.0
+  ic2itemturningblanks:
+    '21845': 975.6
+  ic2itemturningblankswood:
+    '13107': 4122.6
+  ic2itemdust:
+    '13': 4286.85
+    '14': 4753.65
+  ic2itemdust2:
+    '0': 5912.85
+    '1': 1759.35
+    '2': 6509.1
+  ic2itemingot:
+    '3': 38.4
+    '4': 7159.65
+  ic2itemfuelrod:
+    '0': 4185.15
+  ic2itemrtgpellet:
+    '0': 2436.75
+  ic2itempartcircuit:
+    '0': 6060.6
+  ic2itempartcircuitadv:
+    '0': 3297.45
+  ic2itempartalloy:
+    '0': 6925.05
+  ic2itempartcarbonfibre:
+    '0': 4255.5
+  ic2itempartcarbonmesh:
+    '0': 4622.7
+  ic2itemtreetap:
+    '0': 4087.35
+  ic2itemtoolwrench:
+    '0': 4741.2
+  ic2itemtoolcutter:
+    '0': 6018.15
+  ic2itemfoamsprayer:
+    '0': 5406.75
+  ic2itemtoolbox:
+    '0': 3019.95
+  ic2itemcontainmentbox:
+    '0': 1024.8
+  ic2itemtoolforgehammer:
+    '0': 3045.45
+  ic2itemlathingtool:
+    '0': 6695.4
+  ic2itemcrystalmemory:
+    '0': 5929.65
+  ic2itemtooldrill:
+    '1': 3583.35
+  ic2itemtoolchainsaw:
+    '1': 4673.55
+  ic2itemtoolwrenchelectric:
+    '1': 6103.5
+  ic2itemtreetapelectric:
+    '1': 4013.85
+  ic2itemtoolmininglaser:
+    '1': 4044.45
+  ic2itemtoolmeter:
+    '0': 3120.3
+  ic2itemscanner:
+    '1': 6220.8
+  ic2itemscanneradv:
+    '1': 4424.1
+  ic2obscurator:
+    '1': 2981.25
+  ic2itemfreq:
+    '0': 3659.7
+  ic2windmeter:
+    '1': 916.05
+  ic2itemarmorhazmathelmet:
+    '0': 1204.65
+  ic2itemarmorhazmatchestplate:
+    '0': 4477.95
+  ic2itemarmorhazmatleggings:
+    '0': 3279.6
+  ic2itemarmorrubboots:
+    '0': 6350.4
+  ic2itemarmorjetpack:
+    '1': 4078.65
+  ic2itemarmorjetpackelectric:
+    '1': 7079.4
+  ic2itemarmorbatpack:
+    '1': 5994.3
+  ic2itemarmoradvbatpack:
+    '1': 3855.45
+  ic2itemsolarhelmet:
+    '0': 1435.2
+  ic2itemstaticboots:
+    '0': 7119.9
+  ic2itemnightvisiongoggles:
+    '1': 1253.7
+  ic2itembatredischarged:
+    '0': 7475.25
+  ic2itembatre:
+    '1': 4612.65
+  ic2itembatcrystal:
+    '1': 270.15
+  ic2itembatlamacrystal:
+    '1': 1807.35
+  ic2itembatsu:
+    '0': 3931.8
+  ic2itemcable:
+    '0': 4719.45
+    '1': 2072.25
+    '2': 5861.7
+    '3': 1758.15
+    '5': 6693.15
+    '6': 618.45
+    '10': 3404.85
+    '11': 5346.15

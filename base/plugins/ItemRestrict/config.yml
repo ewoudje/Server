@@ -26,7 +26,6 @@ Bans:
    - 1320-7
    - 1322-11
    - 6025
-   - 6026
   World:
 Messages:
   labels:
@@ -38,7 +37,6 @@ Messages:
      1320-7: Mekanism Teleporter Frame
      1322-11: Mekanism Teleporter
      6025: Portable Teleporter
-     6026: Teleporter Core
   reasons:
      1190: StargateTech2 stargates are not permitted within StargateMC, please use SGCraft gates instead.
      120: The End is disabled in StargateMC, along with End Portals.
@@ -48,7 +46,6 @@ Messages:
      1320-7: Mekanism Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
      1322-11: Mekanism Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
      6025: Portable Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate. 
-     6026: Teleporter Cores are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate. 
      
      
      

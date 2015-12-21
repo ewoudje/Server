@@ -1,7 +1,7 @@
 armor:
-  chestplate: CUSTOMNPCS_NPCASSASSINCHEST,1
-  leggings: CUSTOMNPCS_NPCASSASSINLEGGINGS,1
-  boots: CUSTOMNPCS_NPCASSASSINBOOTS,1
+  chestplate: FLANSMOD_MARINEBODY,1
+  leggings: FLANSMOD_MARINEPANTS,1
+  boots: FLANSMOD_MARINEBOOTS,1
 tools:
   '1': FLANSMOD_R700,1
   '2': FLANSMOD_SKORPION,1
@@ -12,4 +12,4 @@ tools:
   '7': FLANSMOD_SKORPIONAMMO,4
 essentialsKit: ''
 useHelmet: true
-potionEffects: JUMP:1,RESISTANCE:1
+potionEffects: SPEED:1

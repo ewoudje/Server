@@ -1,7 +1,7 @@
 armor:
-  chestplate: CUSTOMNPCS_NPCX407CHEST,1
-  leggings: CUSTOMNPCS_NPCX407LEGS,1
-  boots: CUSTOMNPCS_NPCX407BOOTS,1
+  chestplate: FLANSMOD_MARINEBODY,1
+  leggings: FLANSMOD_MARINEPANTS,1
+  boots: FLANSMOD_MARINEBOOTS,1
 tools:
   '1': FLANSMOD_M249,1
   '2': FLANSMOD_M1911,1
@@ -11,4 +11,4 @@ tools:
   '6': FLANSMOD_M1911AMMO,3
 essentialsKit: ''
 useHelmet: true
-potionEffects: SLOWNESS:1,RESISTANCE:2
+potionEffects: SLOWNESS:1, RESISTANCE:-1

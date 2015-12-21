@@ -11,4 +11,3 @@ tools:
   '6': FLANSMOD_M1911AMMO,4
 essentialsKit: ''
 useHelmet: true
-potionEffects: DAMAGE_RESISTANCE:0

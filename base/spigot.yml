@@ -11,6 +11,9 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 5
+commands:
+  log: true
+  tab-complete: true
 settings:
   bungeecord: true
   late-bind: false
@@ -19,10 +22,8 @@ settings:
   restart-on-crash: false
   restart-script: ./start.sh
   netty-threads: 4
+  fullMatchRate: 10
   player-shuffle: 0
-commands:
-  log: true
-  tab-complete: true
 messages:
   restart: The server is restarting. Please check StargateMC.com for more information.
   whitelist: This server requires you be registered on StargateMC.com - it's free!
@@ -36,16 +37,6 @@ stats:
 world-settings:
   default:
     verbose: false
-    mob-spawn-range: 4
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    save-structure-info: true
-    max-bulk-chunks: 5
-    max-entity-collisions: 8
     merge-radius:
       item: 2.5
       exp: 3.0
@@ -86,10 +77,23 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 8
     random-light-updates: false
-    item-despawn-rate: 6000
+    save-structure-info: true
+    max-bulk-chunks: 5
+    max-entity-collisions: 8
+    max-tick-time:
+      tile: 50
+      entity: 50
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    mob-spawn-range: 4
     chunks-per-tick: 650
     clear-tick-list: false
     view-distance: 10
+    item-despawn-rate: 6000
+    zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
-    zombie-aggressive-towards-villager: true

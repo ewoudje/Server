@@ -6,69 +6,91 @@
 # IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
 # Forums: http://cauldron.minecraftforge.net/
 # 
-# Setting: logging.dump-heap-on-deadlock Default: false   # Dump the heap in the event of a deadlock (helps to debug the deadlock)
-# Setting: world-settings.default.infinite-water-source Default: true   # Vanilla water source behavior - is infinite
 # Setting: logging.entity-collision-checks Default: false   # Whether to log entity collision/count checks
-# Setting: settings.dump-materials Default: false   # Dumps all materials with their corresponding id's
-# Setting: logging.dump-chunks-on-deadlock Default: false   # Dump chunks in the event of a deadlock (helps to debug the deadlock)
-# Setting: logging.chunk-unload Default: false   # Log when chunks are unloaded (dev)
-# Setting: logging.world-leak-debug Default: false   # Log worlds that appear to be leaking (buggy)
-# Setting: logging.chunk-load Default: false   # Log when chunks are loaded (dev)
-# Setting: settings.entity-bounding-box-max-size Default: 1000   # Max size of an entity's bounding box before removing it (either being too large or bugged and 'moving' too fast)
-# Setting: logging.detailed-logging Default: false   # Add stack traces to dev logging
-# Setting: logging.entity-count-warn-size Default: 0   # Number of entities in one dimension logging a warning. Set to 0 to disable
-# Setting: logging.collision-warn-size Default: 200   # Number of colliding entities in one spot before logging a warning. Set to 0 to disable
-# Setting: logging.disabled-warnings Default: false   # Disable warning messages to server admins
 # Setting: settings.load-chunk-on-forge-tick Default: false   # Forces Chunk Loading during Forge Server Tick events
-# Setting: logging.entity-death Default: false   # Log when an entity is destroyed (dev)
-# Setting: fake-players.do-login Default: false   # Raise login events for fake players
+# Setting: settings.check-entity-max-speeds Default: false   # Removes any entity that exceeds max speed.
+# Setting: logging.connection Default: false   # Log connections
+# Setting: logging.tick-intervals Default: false   # Log when skip interval handlers are ticked
+# Setting: world-settings.default.flowing-lava-decay Default: false   # Lava behaves like vanilla water when source block is removed
+# Setting: logging.user-login Default: false   # Set true to enable debuggin user's login process
+# Setting: world-settings.default.allow-tnt-punishment Default: true   # TNT ability to push other entities (including other TNTs)
 # Setting: logging.dump-threads-on-warn Default: false   # Dump the the server thread on deadlock warning (delps to debug the deadlock)
 # Setting: logging.entity-speed-removal Default: false   # Whether to log entity removals due to speed
-# Setting: logging.entity-spawn Default: false   # Log when living entities are spawned (dev)
-# Setting: debug.thread-contention-monitoring Default: false   # Set true to enable Java's thread contention monitoring for thread dumps
-# Setting: settings.check-entity-max-speeds Default: false   # Removes any entity that exceeds max speed.
-# Setting: world-settings.default.flowing-lava-decay Default: false   # Lava behaves like vanilla water when source block is removed
 # Setting: settings.check-entity-bounding-boxes Default: true   # Removes a living entity that exceeds the max bounding box size.
-# Setting: settings.load-chunk-on-request Default: true   # Forces Chunk Loading on 'Provide' requests (speedup for mods that don't check if a chunk is loaded
-# Setting: logging.tick-intervals Default: false   # Log when skip interval handlers are ticked
+# Setting: logging.disabled-warnings Default: false   # Disable warning messages to server admins
+# Setting: world-settings.default.infinite-water-source Default: true   # Vanilla water source behavior - is infinite
+# Setting: logging.world-leak-debug Default: false   # Log worlds that appear to be leaking (buggy)
+# Setting: logging.collision-warn-size Default: 200   # Number of colliding entities in one spot before logging a warning. Set to 0 to disable
+# Setting: logging.entity-count-warn-size Default: 0   # Number of entities in one dimension logging a warning. Set to 0 to disable
+# Setting: world-settings.max-players-visible Default: -1   # How many players will visible in the tab list
+# Setting: logging.entity-death Default: false   # Log when an entity is destroyed (dev)
 # Setting: logging.entity-despawn Default: false   # Log when living entities are despawned (dev)
-# Setting: logging.connection Default: false   # Log connections
+# Setting: logging.chunk-unload Default: false   # Log when chunks are unloaded (dev)
 # Setting: plugin-settings.default.remap-plugin-file Default: false   # Remap the plugin file (dev)
+# Setting: fake-players.do-login Default: false   # Raise login events for fake players
+# Setting: logging.entity-spawn Default: false   # Log when living entities are spawned (dev)
+# Setting: logging.dump-chunks-on-deadlock Default: false   # Dump chunks in the event of a deadlock (helps to debug the deadlock)
+# Setting: settings.load-chunk-on-request Default: true   # Forces Chunk Loading on 'Provide' requests (speedup for mods that don't check if a chunk is loaded
+# Setting: settings.entity-bounding-box-max-size Default: 1000   # Max size of an entity's bounding box before removing it (either being too large or bugged and 'moving' too fast)
+# Setting: settings.dump-materials Default: false   # Dumps all materials with their corresponding id's
+# Setting: logging.chunk-load Default: false   # Log when chunks are loaded (dev)
+# Setting: logging.detailed-logging Default: false   # Add stack traces to dev logging
+# Setting: logging.dump-heap-on-deadlock Default: false   # Dump the heap in the event of a deadlock (helps to debug the deadlock)
+# Setting: debug.thread-contention-monitoring Default: false   # Set true to enable Java's thread contention monitoring for thread dumps
 
 logging:
-  dump-heap-on-deadlock: false
   entity-collision-checks: false
-  dump-chunks-on-deadlock: false
-  chunk-unload: false
-  world-leak-debug: false
-  chunk-load: false
-  detailed-logging: false
-  entity-count-warn-size: 0
-  collision-warn-size: 200
-  disabled-warnings: false
-  entity-death: false
+  connection: false
+  tick-intervals: false
+  user-login: false
   dump-threads-on-warn: false
   entity-speed-removal: false
-  entity-spawn: false
-  tick-intervals: false
+  disabled-warnings: false
+  world-leak-debug: false
+  collision-warn-size: 200
+  entity-count-warn-size: 0
+  entity-death: false
   entity-despawn: false
-  connection: false
-world-settings:
-  default:
-    infinite-water-source: true
-    flowing-lava-decay: false
-    entity-despawn-immediate: false
+  chunk-unload: false
+  entity-spawn: false
+  dump-chunks-on-deadlock: false
+  chunk-load: false
+  detailed-logging: false
+  dump-heap-on-deadlock: false
 settings:
-  dump-materials: false
-  entity-bounding-box-max-size: 1000
   load-chunk-on-forge-tick: false
   check-entity-max-speeds: false
   check-entity-bounding-boxes: true
   load-chunk-on-request: true
-fake-players:
-  do-login: false
-debug:
-  thread-contention-monitoring: false
+  entity-bounding-box-max-size: 1000
+  dump-materials: false
+world-settings:
+  default:
+    flowing-lava-decay: false
+    allow-tnt-punishment: true
+    infinite-water-source: true
+    entity-despawn-immediate: false
+    worldgen-Mekanism-GenHandler: true
+    worldgen-GalacticraftCore-OverworldGenerator: true
+    worldgen-MCA-SimpleOreGenerator: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-Oceancraft-WorldGeneratorOceancraft: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-IC2-IC2: true
+    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-StargateTech2-CoreWorldGenerator: true
+    worldgen-StargateTech2-AncientWorldGenerator: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-SGCraft-NaquadahOreWorldGen: true
+    worldgen-mediccraft-PlantGen: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-desertcraft-PamDesertPlantGenerator: true
+    worldgen-Forestry-WorldGenerator: true
+  max-players-visible: -1
 plugin-settings:
   default:
     remap-plugin-file: false
@@ -91,6 +113,10 @@ plugin-settings:
     remap-reflect-field: true
     remap-reflect-class: true
     remap-allow-future: false
+fake-players:
+  do-login: false
+debug:
+  thread-contention-monitoring: false
 config-version: 1
 world-environment-settings:
   normal:
@@ -105,21 +131,66 @@ world-environment-settings:
     keep-world-loaded: true
   orbit:
     keep-world-loaded: true
+  jupiterorbit:
+    keep-world-loaded: true
+  marsorbit:
+    keep-world-loaded: true
   asteroids:
     keep-world-loaded: true
+    enabled: true
+  darkasteroids:
+    keep-world-loaded: true
+    enabled: true
+  diona:
+    keep-world-loaded: true
+    enabled: true
+  fronos:
+    keep-world-loaded: true
+    enabled: true
+  'null':
+    keep-world-loaded: true
+    enabled: true
+  kapteynb:
+    keep-world-loaded: true
+    enabled: true
   mars:
     keep-world-loaded: true
+    enabled: true
   mercury:
     keep-world-loaded: true
+    enabled: true
+  nibiru:
+    keep-world-loaded: true
+    enabled: true
   pluto:
     keep-world-loaded: true
+    enabled: true
+  polongnius:
+    keep-world-loaded: true
+    enabled: true
+  siriusb:
+    keep-world-loaded: true
+    enabled: true
   venus:
     keep-world-loaded: true
+    enabled: true
+  deimos:
+    keep-world-loaded: true
+    enabled: true
+  koentus:
+    keep-world-loaded: true
+    enabled: true
+  moon:
+    keep-world-loaded: true
+    enabled: true
+  phobos:
+    keep-world-loaded: true
+    enabled: true
+  surface:
+    enabled: true
   europa:
     keep-world-loaded: true
   hole:
     keep-world-loaded: true
   io:
-    keep-world-loaded: true
-  moon:
     keep-world-loaded: true
