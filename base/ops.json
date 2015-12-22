@@ -1,0 +1,22 @@
+[
+  {
+    "uuid": "77456a1f-b9f9-3f84-8863-ddef5b8e2209",
+    "name": "[BuildCraft]",
+    "level": 4
+  },
+  {
+    "uuid": "8b357ecd-19e0-377f-b50a-db213af6adcb",
+    "name": "Autorank",
+    "level": 4
+  },
+  {
+    "uuid": "46e82cd0-d480-3d48-800a-77431ede078e",
+    "name": "[Mekanism]",
+    "level": 4
+  },
+  {
+    "uuid": "0d0c4ca0-4ff1-11e4-916c-0800200c9a66",
+    "name": "ComputerCraft",
+    "level": 4
+  }
+]
