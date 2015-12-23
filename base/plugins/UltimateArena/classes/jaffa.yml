@@ -1,4 +1,5 @@
 armor:
+  helmet: FLANSMOD_SERPENTGUARDHELMET, 1
   chestplate: FLANSMOD_SERPENTGUARDBODY,1
   leggings: FLANSMOD_SERPENTGUARDPANTS,1
   boots: FLANSMOD_SERPENTGUARDBOOTS,1
@@ -8,4 +9,4 @@ tools:
   '3': FLANSMOD_ZATGUN,1
   '4': FLANSMOD_ZATPOWERCELL,1
 essentialsKit: ''
-useHelmet: true
+useHelmet: false
