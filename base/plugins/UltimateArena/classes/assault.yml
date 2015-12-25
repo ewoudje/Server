@@ -1,5 +1,4 @@
 armor:
-  helmet: FLANSMOD_MARINEHELMET,1
   chestplate: FLANSMOD_MARINEBODY,1
   leggings: FLANSMOD_MARINEPANTS,1
   boots: FLANSMOD_MARINEBOOTS,1
@@ -11,4 +10,4 @@ tools:
   '5': FLANSMOD_M16A4AMMO,4
   '6': FLANSMOD_M1911AMMO,4
 essentialsKit: ''
-useHelmet: false
+useHelmet: true
