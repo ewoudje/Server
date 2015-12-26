@@ -66,9 +66,9 @@ Economy:
   # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
   Limit:
     Use: true
-    MoneyLimit: 5000
+    MoneyLimit: 10000
     # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
-    TimeLimit: 900
+    TimeLimit: 3600
     # Delay between announcements about reached money limit
     # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
     AnnouncmentDelay: 30
@@ -93,13 +93,13 @@ use-breeder-finder: true
 # Use: jobs.boost.[jobname].money or jobs.boost.[jobname].exp or jobs.boost.[jobname].both for both of them
 # 1.25 means that player will get 25% more than others, you can set less than 1 to get less from anothers
 boost:
-  exp: 1.25
-  money: 1.25
+  exp: 5
+  money: 5
 # Old job save
 # Players can leave job and return later with some level loss during that
 # You can fix players level if hes job level is at max level
 old-job:
-  level-loss-percentage: 50
+  level-loss-percentage: 25
   fix-at-max-level: false
 # Action bars
 # You can enable/disable message shown for players in action bar
