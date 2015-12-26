@@ -370,7 +370,7 @@ global_town_settings:
   prevent_town_spawn_in: enemy
   # Enables the [~Home] message.
   # If false it will make it harder for enemies to find the home block during a war
-  show_town_notifications: 'true'
+  show_town_notifications: 'false'
  
  
 ############################################################
