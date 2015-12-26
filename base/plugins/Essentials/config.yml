@@ -473,6 +473,7 @@ sethome-multiple:
   Tauri: 1
   Tollan: 2
   Ancient: 3
+  Donator: 5
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 
