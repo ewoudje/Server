@@ -370,7 +370,7 @@ plugin:
  
     tekkit:
       # Add any fake players for client/server mods (aka Tekkit) here
-      fake_residents: '[Mekanism],[ComputerCraft],[IndustrialCraft],[BuildCraft],[Redpower],[Forestry],[Turtle]'
+      fake_residents: ''
  
     # Enable using_essentials if you are using cooldowns in essentials for teleports.
     using_essentials: 'false'
