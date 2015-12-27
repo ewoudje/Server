@@ -96,63 +96,63 @@ levels:
     mayorPrefix: 'Spirit '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 1
+    townBlockLimit: 32
     upkeepModifier: 1.0
   - numResidents: 1
     namePostfix: ' (Settlement)'
     mayorPrefix: 'Hermit '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 16
+    townBlockLimit: 64
     upkeepModifier: 1.0
   - numResidents: 2
     namePostfix: ' (Hamlet)'
     mayorPrefix: 'Chief '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 32
+    townBlockLimit: 96
     upkeepModifier: 1.0
-  - numResidents: 6
+  - numResidents: 3
     namePostfix: ' (Village)'
     mayorPrefix: 'Baron Von '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 96
+    townBlockLimit: 128
     upkeepModifier: 1.0
-  - numResidents: 10
+  - numResidents: 4
     namePostfix: ' (Town)'
     mayorPrefix: 'Viscount '
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 160
     upkeepModifier: 1.0
-  - numResidents: 14
+  - numResidents: 5
     namePostfix: ' (Large Town)'
     mayorPrefix: 'Count Von '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 224
+    townBlockLimit: 192
     upkeepModifier: 1.0
-  - numResidents: 20
+  - numResidents: 6
     namePostfix: ' (City)'
     mayorPrefix: 'Earl '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 320
+    townBlockLimit: 224
     upkeepModifier: 1.0
-  - numResidents: 24
+  - numResidents: 7
     namePostfix: ' (Large City)'
     mayorPrefix: 'Duke '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 384
+    townBlockLimit: 256
     upkeepModifier: 1.0
-  - numResidents: 28
+  - numResidents: 8
     namePostfix: ' (Metropolis)'
     mayorPrefix: 'Lord '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 448
+    townBlockLimit: 512
     upkeepModifier: 1.0
  
   # default Nation levels.
