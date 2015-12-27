@@ -224,7 +224,7 @@ town:
   # Default Open status of the town (are new towns open and joinable by anyone at creation?)
   default_open: 'false'
   # Limits the maximum amount of bonus blocks a town can buy.
-  max_purchased_blocks: '0'
+  max_purchased_blocks: '500'
   # maximum number of plots any single resident can own
   max_plots_per_resident: '100'
   # Maximum number of towns allowed on the server.
@@ -244,7 +244,7 @@ town:
  
   # The maximum townblocks available to a town is (numResidents * ratio).
   # Setting this value to 0 will instead use the level based jump values determined in the town level config.
-  town_block_ratio: '8'
+  town_block_ratio: '0'
   # The size of the square grid cell. Changing this value is suggested only when you first install Towny.
   # Doing so after entering data will shift things unwantedly. Using smaller value will allow higher precision,
   # at the cost of more work setting up. Also, extremely small values will render the caching done useless.
