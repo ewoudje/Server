@@ -175,42 +175,6 @@ levels:
     upkeepModifier: 1.0
     kingPrefix: 'Count '
     capitalPrefix: ''
-  - kingPostfix: ''
-    numResidents: 20
-    namePostfix: ' (Nation)'
-    townBlockLimitBonus: 40
-    namePrefix: 'Dominion of '
-    capitalPostfix: ''
-    upkeepModifier: 1.0
-    kingPrefix: 'Duke '
-    capitalPrefix: ''
-  - kingPostfix: ''
-    numResidents: 30
-    namePostfix: ' (Nation)'
-    townBlockLimitBonus: 60
-    namePrefix: 'Kingdom of '
-    capitalPostfix: ''
-    upkeepModifier: 1.0
-    kingPrefix: 'King '
-    capitalPrefix: ''
-  - kingPostfix: ''
-    numResidents: 40
-    namePostfix: ' Empire'
-    townBlockLimitBonus: 100
-    namePrefix: 'The '
-    capitalPostfix: ''
-    upkeepModifier: 1.0
-    kingPrefix: 'Emperor '
-    capitalPrefix: ''
-  - kingPostfix: ''
-    numResidents: 60
-    namePostfix: ' Realm'
-    townBlockLimitBonus: 140
-    namePrefix: 'The '
-    capitalPostfix: ''
-    upkeepModifier: 1.0
-    kingPrefix: 'God Emperor '
-    capitalPrefix: ''
  
 ############################################################
 # +------------------------------------------------------+ #
@@ -228,7 +192,7 @@ town:
   # maximum number of plots any single resident can own
   max_plots_per_resident: '100'
   # Maximum number of towns allowed on the server.
-  town_limit: '10'
+  town_limit: '20'
  
   # Minimum number of plots any towns plot must be from the next town's own plots.
   # This will prevent town encasement to a certain degree.
