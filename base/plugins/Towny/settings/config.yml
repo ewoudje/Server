@@ -696,11 +696,11 @@ economy:
   death:
     # Either fixed or percentage.
     # For percentage 1.0 would be 100%. 0.01 would be 1%.
-    price_death_type: percentage
+    price_death_type: fixed
     # If True, only charge death prices for pvp kills. Not monsters/environmental deaths.
     price_death_pvp_only: 'false'
  
-    price_death: '2.5'
+    price_death: '0.0'
  
     price_death_town: '0.0'
  
