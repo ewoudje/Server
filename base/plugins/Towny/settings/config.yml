@@ -96,63 +96,63 @@ levels:
     mayorPrefix: 'Spirit '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 32
+    townBlockLimit: 100
     upkeepModifier: 1.0
   - numResidents: 1
     namePostfix: ' (Settlement)'
     mayorPrefix: 'Hermit '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 64
+    townBlockLimit: 200
     upkeepModifier: 1.0
   - numResidents: 2
     namePostfix: ' (Hamlet)'
     mayorPrefix: 'Chief '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 96
+    townBlockLimit: 300
     upkeepModifier: 1.0
   - numResidents: 3
     namePostfix: ' (Village)'
     mayorPrefix: 'Baron Von '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 128
+    townBlockLimit: 400
     upkeepModifier: 1.0
   - numResidents: 4
     namePostfix: ' (Town)'
     mayorPrefix: 'Viscount '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 160
+    townBlockLimit: 500
     upkeepModifier: 1.0
   - numResidents: 5
     namePostfix: ' (Large Town)'
     mayorPrefix: 'Count Von '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 192
+    townBlockLimit: 600
     upkeepModifier: 1.0
   - numResidents: 6
     namePostfix: ' (City)'
     mayorPrefix: 'Earl '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 224
+    townBlockLimit: 700
     upkeepModifier: 1.0
   - numResidents: 7
     namePostfix: ' (Large City)'
     mayorPrefix: 'Duke '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 256
+    townBlockLimit: 800
     upkeepModifier: 1.0
   - numResidents: 8
     namePostfix: ' (Metropolis)'
     mayorPrefix: 'Lord '
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 512
+    townBlockLimit: 900
     upkeepModifier: 1.0
  
   # default Nation levels.
@@ -188,7 +188,7 @@ town:
   # Default Open status of the town (are new towns open and joinable by anyone at creation?)
   default_open: 'false'
   # Limits the maximum amount of bonus blocks a town can buy.
-  max_purchased_blocks: '512'
+  max_purchased_blocks: '900'
   # maximum number of plots any single resident can own
   max_plots_per_resident: '100'
   # Maximum number of towns allowed on the server.
