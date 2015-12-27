@@ -423,9 +423,9 @@ plugin:
     using_questioner:
       enable: 'true'
       # The command to accept invitations.
-      accept: accept
+      accept: townyconfirm
       # The command to refuse invitations.
-      deny: deny
+      deny: townycancel
  
     # True to attempt to use GroupManager, PEX, bPermissions, Permissions2/3 or BukkitPerms
     # False to disable permission checks and rely on Towny settings.
