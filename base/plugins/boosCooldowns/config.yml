@@ -62,12 +62,17 @@ commands:
       /fly:
         cooldown: 10
         warmup: 3
-      /town spawn *:
+      /town spawn:
         cooldown: 900
+        warmup: 10
+      /town spawn *:
+        cooldown: 3600
         warmup: 10
       /town outpost *:
         cooldown: 3600
         warmup: 10
   aliases:
     /t spawn: /town spawn
-    /t outpost: /town outpost
+    /t outpost: /town outpost 1
+    /town outpost: /town outpost 1
+
