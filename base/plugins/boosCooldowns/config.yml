@@ -65,3 +65,5 @@ commands:
       /town spawn:
         cooldown: 900
         warmup: 10
+  aliases:
+    /t spawn: /town spawn
