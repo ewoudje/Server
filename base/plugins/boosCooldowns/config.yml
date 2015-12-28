@@ -62,3 +62,6 @@ commands:
       /fly:
         cooldown: 10
         warmup: 3
+      /town spawn:
+        cooldown: 900
+        warmup: 10
