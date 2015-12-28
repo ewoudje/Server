@@ -72,7 +72,5 @@ commands:
         cooldown: 3600
         warmup: 10
   aliases:
-    /t spawn: /town spawn
-    /t outpost: /town outpost 1
     /town outpost: /town outpost 1
 
