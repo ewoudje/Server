@@ -53,9 +53,6 @@ options:
 commands:
   groups:
     default:
-      /town spawn:
-        cooldown: 900
-        warmup: 10
       /spawn:
         cooldown: 900
         warmup: 10
