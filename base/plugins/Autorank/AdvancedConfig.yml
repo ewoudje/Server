@@ -11,7 +11,9 @@ ranks:
     Tauri:
         requirements:
             global time:
-                value: 8h
+                value: 1d
+            total time:
+                value: 7d
         results:
             rank change: Tauri;Tollan
             command: 'pushcommand addmember Tollan &p;'
