@@ -23,7 +23,6 @@ nomad:
     - towny.command.plot.perm
     - towny.command.nation.list
     - towny.town.resident
-    - towny.town.spawn.public
     - towny.chat.general
     
 # This section of permissions covers players who are members of a town.
@@ -41,7 +40,6 @@ towns:
         - towny.command.town.online
         - towny.command.town.leave
         - towny.command.town.deposit
-        - towny.town.spawn.town
         - towny.chat.town
     mayor:
         # Mayors get these permissions in addition to the default set.
@@ -78,8 +76,6 @@ nations:
         # All nation members get these permissions.
         - towny.command.nation.online
         - towny.command.nation.deposit
-        - towny.town.spawn.nation
-        - towny.town.spawn.ally
         - towny.chat.nation
     king:
         # Kings get these permissions in addition to the default set.
