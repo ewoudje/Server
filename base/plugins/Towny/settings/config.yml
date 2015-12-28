@@ -316,7 +316,7 @@ global_town_settings:
   # Allow towns to claim outposts (a townblock not connected to town).
   allow_outposts: 'true'
   # Allow the use of /town spawn
-  allow_town_spawn: 'false'
+  allow_town_spawn: 'true'
   # Allow regular residents to use /town spawn [town] (TP to other towns if they are public).
   allow_town_spawn_travel: 'false'
   # Allow regular residents to use /town spawn [town] to other towns in your nation.
