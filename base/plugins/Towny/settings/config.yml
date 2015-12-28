@@ -188,7 +188,7 @@ town:
   # Default Open status of the town (are new towns open and joinable by anyone at creation?)
   default_open: 'false'
   # Limits the maximum amount of bonus blocks a town can buy.
-  max_purchased_blocks: '900'
+  max_purchased_blocks: '2500'
   # maximum number of plots any single resident can own
   max_plots_per_resident: '100'
   # Maximum number of towns allowed on the server.
