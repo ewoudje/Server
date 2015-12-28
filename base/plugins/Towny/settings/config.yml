@@ -669,12 +669,12 @@ economy:
     # Cost to use /town spawn
     price_town_spawn_travel: '0.0'
     # Cost to use '/town spawn [town]' to another town in your nation.
-    price_town_nation_spawn_travel: '5.0'
+    price_town_nation_spawn_travel: '0.0'
     # Cost to use '/town spawn [town]' to another town in a nation that is allied with your nation.
-    price_town_ally_spawn_travel: '10.0'
+    price_town_ally_spawn_travel: '0.0'
     # Cost to use /town spawn [town]
     # This is paid to the town you goto.
-    price_town_public_spawn_travel: '10.0'
+    price_town_public_spawn_travel: '0.0'
  
   # The daily upkeep to remain neutral during a war. Neutrality will exclude you from a war event, as well as deterring enemies.
   price_nation_neutrality: '2500.0'
