@@ -373,7 +373,7 @@ plugin:
       fake_residents: ''
  
     # Enable using_essentials if you are using cooldowns in essentials for teleports.
-    using_essentials: 'false'
+    using_essentials: 'true'
  
     # This will attempt to use Register (if present)
     # Then it will attempt to access iConomy 5.01 directly
