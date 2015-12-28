@@ -473,7 +473,6 @@ sethome-multiple:
   Tauri: 1
   Tollan: 2
   Ancient: 3
-  Donator: 5
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 
@@ -490,7 +489,7 @@ tpa-accept-cancellation: 120
 # For more information, visit http://wiki.ess3.net/wiki/Essentials_Economy
 
 # Defines the balance with which new players begin.  Defaults to 0.
-starting-balance: 0
+starting-balance: 10000
 
 
 # worth-# defines the value of an item when it is sold to the server via /sell.
