@@ -160,7 +160,7 @@ levels:
   - kingPostfix: ''
     numResidents: 0
     namePostfix: ' (Nation)'
-    townBlockLimitBonus: 10
+    townBlockLimitBonus: 50
     namePrefix: 'Land of '
     capitalPostfix: ''
     upkeepModifier: 1.0
@@ -169,7 +169,7 @@ levels:
   - kingPostfix: ''
     numResidents: 10
     namePostfix: ' (Nation)'
-    townBlockLimitBonus: 20
+    townBlockLimitBonus: 250
     namePrefix: 'Federation of '
     capitalPostfix: ''
     upkeepModifier: 1.0
@@ -691,7 +691,7 @@ economy:
     # How much it costs a player to buy extra blocks.
     price_purchased_bonus_townblock: '125.0'
     # How much every extra bonus block costs more. Set to 1 to deactivate this. 1.2 means +20% to every bonus claim block cost.
-    price_purchased_bonus_townblock_increase: '1.1'
+    price_purchased_bonus_townblock_increase: '1.01'
  
   death:
     # Either fixed or percentage.
