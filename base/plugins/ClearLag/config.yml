@@ -203,7 +203,7 @@ item-merger:
 # -- NOTE: The below 'remove' section applies to this remover!
 # -- NOTE: Putting the interval to low will cause issues!
 auto-removal:
-  enabled: true
+  enabled: false
   broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
   broadcast-warning: true
   autoremoval-interval: 1800
