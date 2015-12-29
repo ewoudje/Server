@@ -28,7 +28,16 @@ ranks:
             rank change: Tollan;Ancient
             command: 'pushcommand delmember Tollan &p;pushcommand addmember Ancient &p;'
             message: 'You have been assigned to the Ancient rank.'
-            
+    Ancient:
+        requirements:
+            global time:
+                value: 15d
+            total time:
+                value: 90d
+        results:
+            rank change: Ancient;Ascended
+            command: 'pushcommand delmember Ancient &p;pushcommand addmember Ascended &p;'
+            message: 'You have now Ascended, congratulations!'
 # new requirements and results can be added by other plugins that hook into the Autorank API
 # these are the ones that are included in the main plugin:
 # 
