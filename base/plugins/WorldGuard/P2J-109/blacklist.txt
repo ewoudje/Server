@@ -60,7 +60,7 @@
 #on-break=notify,deny,log
 [5874]
 on-use=deny,tell
-message=It is impossible to have more than one stargate capable of offworld travel this close to a black hole...
+message=It is impossible to have more than one stargate on this world capable of offworld travel this close to a black hole...
 # Some funky data value tests
 #[wood:0;>=2]
 #ignore-groups=admins,mods
