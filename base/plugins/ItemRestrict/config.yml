@@ -17,6 +17,10 @@ Bans:
    - 1322-11
    - 6025
    - 6026
+   - 4151
+   - 715
+   - 716
+   - 717
   Ownership:
    - 1190
    - 120
@@ -26,6 +30,9 @@ Bans:
    - 1320-7
    - 1322-11
    - 6025
+   - 715
+   - 716
+   - 717
   World:
 Messages:
   labels:
@@ -37,6 +44,10 @@ Messages:
      1320-7: Mekanism Teleporter Frame
      1322-11: Mekanism Teleporter
      6025: Portable Teleporter
+     4151: Mining Laser
+     715: ComputerCraft Turtle
+     716: ComputerCraft Turtle
+     717: ComputerCraft Turtle
   reasons:
      1190: StargateTech2 stargates are not permitted within StargateMC, please use SGCraft gates instead.
      120: The End is disabled in StargateMC, along with End Portals.
@@ -46,6 +57,9 @@ Messages:
      1320-7: Mekanism Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
      1322-11: Mekanism Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
      6025: Portable Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate. 
-     
+     4151: Mining Lasers can bypass grief prevention and usage is banned to allow players to craft with it
+     715: Computercraft Turtles can bypass grief prevention and are banned.
+     716: Computercraft Turtles can bypass grief prevention and are banned.
+     717: Computercraft Turtles can bypass grief prevention and are banned.
      
      
