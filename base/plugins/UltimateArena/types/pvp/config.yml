@@ -4,7 +4,7 @@
 gameTime: 300
 lobbyTime: 60
 maxDeaths: 3
-allowTeamKilling: true
+allowTeamKilling: false
 countMobKills: false
 rewardBasedOnXp: true
 cashReward: 2500
