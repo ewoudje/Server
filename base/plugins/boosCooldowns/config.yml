@@ -53,22 +53,24 @@ options:
 commands:
   groups:
     default:
-      /f home:
-        cooldown: 900
-        warmup: 10
       /spawn:
         cooldown: 900
         warmup: 10
-      /home:
-        cooldown: 900
-        warmup: 10
-      /sethome:
-        cooldown: 30
-      /f sethome:
-        cooldown: 30
       /jump:
         cooldown: 10
         warmup: 3
       /fly:
         cooldown: 10
         warmup: 3
+      /town spawn:
+        cooldown: 900
+        warmup: 10
+      /town spawn *:
+        cooldown: 3600
+        warmup: 10
+      /town outpost *:
+        cooldown: 3600
+        warmup: 10
+  aliases:
+    /town outpost: /town outpost 1
+

@@ -11,11 +11,13 @@ ranks:
     Tauri:
         requirements:
             global time:
-                value: 8h
+                value: 1d
+            total time:
+                value: 7d
         results:
             rank change: Tauri;Tollan
-            command: 'pushcommand addmember Tollan &p; broadcast &2 &p &r has advanced to &3Tollan&r after 8 hours of playtime on StargateMC!'
-            message: 'Perks include: Ability to set a nickname, join an arena from anywhere (using /ua join <arena>), half the cooldown on /spawn and never losing items on death!'
+            command: 'pushcommand addmember Tollan &p;'
+            message: 'You have been assigned to the Tollan rank.'
     Tollan:
         requirements:
             global time:
@@ -24,9 +26,18 @@ ranks:
                 value: 30d
         results:
             rank change: Tollan;Ancient
-            command: 'pushcommand delmember Tollan &p;pushcommand addmember Ancient &p;broadcast &2 &p &r has advanced to &3Ancient&r after 30 days on server and 5 days of playtime on StargateMC!'
-            message: 'Perks include: Not losing experience on death, Open market mailbox anywhere using /market mail and respond to support tickets for in-game rewards!'
-
+            command: 'pushcommand delmember Tollan &p;pushcommand addmember Ancient &p;'
+            message: 'You have been assigned to the Ancient rank.'
+    Ancient:
+        requirements:
+            global time:
+                value: 15d
+            total time:
+                value: 90d
+        results:
+            rank change: Ancient;Ascended
+            command: 'pushcommand delmember Ancient &p;pushcommand addmember Ascended &p;'
+            message: 'You have now Ascended, congratulations!'
 # new requirements and results can be added by other plugins that hook into the Autorank API
 # these are the ones that are included in the main plugin:
 # 
