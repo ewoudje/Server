@@ -525,7 +525,7 @@ unclaimed:
   unclaimed_zone_build: 'false'
   unclaimed_zone_destroy: 'false'
   unclaimed_zone_item_use: 'false'
-  unclaimed_zone_ignore: SAPLING,GOLD_ORE,IRON_ORE,COAL_ORE,LOG,LEAVES,LAPIS_ORE,LONG_GRASS,YELLOW_FLOWER,RED_ROSE,BROWN_MUSHROOM,RED_MUSHROOM,TORCH,DIAMOND_ORE,LADDER,RAILS,REDSTONE_ORE,GLOWING_REDSTONE_ORE,CACTUS,CLAY,SUGAR_CANE_BLOCK,PUMPKIN,GLOWSTONE
+  unclaimed_zone_ignore: SAPLING
   unclaimed_zone_switch: 'false'
  
  
