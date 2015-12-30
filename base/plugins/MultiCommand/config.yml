@@ -37,8 +37,8 @@ Commands:
   - '[1]/wb $1-homeworld set 500 500 spawn'
   - '[1]/dynmap pause all'
   - '[1]/dmap worldset $1-homeworld title:$1sHomeworld'
-  - '[1]/dmap worldset $1-homeworld visible:true'
-  - '[1]/dmap worldset $1-homeworld enabled:true'
+  - '[1]/dmap worldset $1-homeworld visible:false'
+  - '[1]/dmap worldset $1-homeworld enabled:false'
   - '[1]/dynmap pause none'
   GOTO_NORMAL_WORLD:
   - /mw load $1-homeworld
