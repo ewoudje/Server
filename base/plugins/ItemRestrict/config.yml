@@ -21,6 +21,9 @@ Bans:
    - 715
    - 716
    - 717
+   - 5666
+   - 5668
+   - 5669
   Ownership:
    - 1190
    - 120
@@ -33,6 +36,9 @@ Bans:
    - 715
    - 716
    - 717
+   - 5666
+   - 5668
+   - 5669
   World:
 Messages:
   labels:
@@ -48,6 +54,9 @@ Messages:
      715: ComputerCraft Turtle
      716: ComputerCraft Turtle
      717: ComputerCraft Turtle
+     5666: Tunnel Bore
+     5668: Tunnel Bore
+     5669: Tunnel Bore
   reasons:
      1190: StargateTech2 stargates are not permitted within StargateMC, please use SGCraft gates instead.
      120: The End is disabled in StargateMC, along with End Portals.
@@ -61,5 +70,9 @@ Messages:
      715: Computercraft Turtles can bypass grief prevention and are banned.
      716: Computercraft Turtles can bypass grief prevention and are banned.
      717: Computercraft Turtles can bypass grief prevention and are banned.
+     5666: Tunnel bores can bypass grief prevention and are banned.
+     5668: Tunnel bores can bypass grief prevention and are banned.
+     5669: Tunnel bores can bypass grief prevention and are banned.
+     
      
      
