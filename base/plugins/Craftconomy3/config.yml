@@ -8,7 +8,7 @@ System:
       Minor: Cent
       MinorPlural: Cents
       Sign: $
-    StartBalance: 100.0
+    StartBalance: 50000.0
     PriceBank: 200.0
     DisplayMode: long
   CheckNewVersion: true
