@@ -1,6 +1,6 @@
 stats: {flushCheckInterval: 1000}
 players: {flushInterval: 1000}
-webServer: {address: ua, port: 25535, enabled: true}
+webServer: {address: 0.0.0.0, port: 25535, enabled: true}
 global: null
 db: {v2-14-fix: true, password: S0ulM@t3, prefix: inq_, url: 'jdbc:mysql://localhost/stargatemc',
     username: root}
