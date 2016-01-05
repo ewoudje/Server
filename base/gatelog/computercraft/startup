@@ -598,7 +598,7 @@ while true do
 					address = v
 					addToHistory(v)
                   else
-                    drawSgStatus("Insufficient Power")
+                    drawSgStatus("Not enough Power")
 		          end
 				end
 				sleep(.5)
