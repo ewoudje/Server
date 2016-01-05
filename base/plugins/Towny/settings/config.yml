@@ -524,9 +524,9 @@ protection:
 unclaimed:
   unclaimed_zone_build: 'false'
   unclaimed_zone_destroy: 'false'
-  unclaimed_zone_item_use: 'false'
+  unclaimed_zone_item_use: 'true'
   unclaimed_zone_ignore: SAPLING
-  unclaimed_zone_switch: 'false'
+  unclaimed_zone_switch: 'true'
  
  
 ############################################################
