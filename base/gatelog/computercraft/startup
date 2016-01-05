@@ -216,7 +216,7 @@ function drawLocalAddress() -- draws the address stargate being controlled
   mon.setBackgroundColor(colors.black)
   mon.setTextColor(colors.lightGray)
   mon.setCursorPos(x/2-7, 1)
-  mon.write("Stargate Address:")
+  mon.write("Earth Stargate Address")
   mon.setCursorPos(x/2-3, 2)
   mon.write(sg.localAddress())
 end
@@ -439,8 +439,8 @@ end
 function drawRemoteAddress()
   mon.setBackgroundColor(colors.black)
   x,y = mon.getSize()
-  mon.setCursorPos((x/2+1) - string.len(sg.remoteAddress())/2, y/2-2)
-  mon.write(sg.remoteAddress())
+  mon.setCursorPos((x/2+1) - string.len("Stargate")/2, y/2-2)
+  mon.write("Stargate")
 end
 
 function drawHistoryButton()
@@ -598,7 +598,7 @@ while true do
 					address = v
 					addToHistory(v)
                   else
-                    drawSgStatus("Error")
+                    drawSgStatus("Insufficient Power")
 		          end
 				end
 				sleep(.5)
