@@ -31,14 +31,14 @@ Commands:
   JOB_TRANSFER_AT_LEVEL:
   - '[1]/jobs transfer $1 $2 $3'
   - '[1]/broadcast $1 has been promoted from a $2 to a $3!'
-  CREATE_NORMAL:
+  CREATE_HOMEWORLD:
   - /mw create $1-homeworld-$2 normal
   - '[1]/mw load $1-homeworld-$2'
   - '[1]/wb $1-homeworld set 250 250 spawn'
   - '[1]/dynmap pause all'
   - '[1]/dmap worldset $1-homeworld-$2 enabled:false'
   - '[1]/dynmap pause none'
-  GOTO_NORMAL_WORLD:
+  GOTO_HOMEWORLD:
   - /mw load $1-homeworld-$2
   - '[2]/mw move $1 $1-homeworld-$2'
   TUTORIAL_CHAT_JOIN:
