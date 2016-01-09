@@ -229,7 +229,7 @@ town:
  
 new_world_settings:
   # Default for new worlds to have towny enabled.
-  using_towny: 'false'
+  using_towny: 'true'
  
   pvp:
     # Set if PVP is enabled in this world
