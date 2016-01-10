@@ -192,7 +192,7 @@ town:
   # maximum number of plots any single resident can own
   max_plots_per_resident: '100'
   # Maximum number of towns allowed on the server.
-  town_limit: '20'
+  town_limit: '50'
  
   # Minimum number of plots any towns plot must be from the next town's own plots.
   # This will prevent town encasement to a certain degree.
