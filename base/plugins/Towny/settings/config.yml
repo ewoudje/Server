@@ -192,7 +192,7 @@ town:
   # maximum number of plots any single resident can own
   max_plots_per_resident: '100'
   # Maximum number of towns allowed on the server.
-  town_limit: '20'
+  town_limit: '50'
  
   # Minimum number of plots any towns plot must be from the next town's own plots.
   # This will prevent town encasement to a certain degree.
@@ -709,12 +709,12 @@ economy:
   banks:
     # Maximum amount of money allowed in town bank
     # Use 0 for no limit
-    town_bank_cap: '0.0'
+    town_bank_cap: '100000000.0'
     # Set to true to allow withdrawls from town banks
     town_allow_withdrawls: 'true'
     # Maximum amount of money allowed in nation bank
     # Use 0 for no limit
-    nation_bank_cap: '0.0'
+    nation_bank_cap: '1000000000.0'
     # Set to true to allow withdrawls from nation banks
     nation_allow_withdrawls: 'true'
   closed_economy:

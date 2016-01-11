@@ -231,8 +231,8 @@ kits:
     items:
       # M9 Pistol
       - 5110 1
-      # 3x M9 Ammo
-      - 5036 3
+      # 5x M9 Ammo
+      - 5036 5
       # Marine Chest Plate
       - 5171 1
       # Marine Boots
@@ -247,20 +247,42 @@ kits:
       - 5044 10
       # P90 Machine Gun
       - 5115 1
+      # 1x Zat Gun
+      - 6800 1
+      # 1x Zat Ammo
+      - 6798 1
       # Iron Pick Axe
       - 257 1
-      # 16x Glass Fibre Cable
-      - 4195:9 8
-      # 2x Coal Generators
-      - 194 2
+      # 8x Naquadah Cable (Mk. 1)
+      - 1756:1706 8
+      # 1x Naquadah Reactor (Mk. 1)
+      - 1756:1190 1
+      # 2x Enriched Naquadah Rods
+      - 6838:26326 3
       # MFE (Empty)
       - 200:1 1
       # 10x Steak
       - 364 10
       # Personal Shield (10%)
       - 6126:949 1
-      # 16x Coal
-      - 263 16
+      # Ring platforms (x2)
+      - 1188 2
+      # Stargate Power Unit
+      - 1227 1
+      # Stargate Base
+      - 1223 1
+      # Stargate Chevron
+      - 1222:1 7
+      # Stargate Ring
+      - 1222 8
+      # Stargate Controller
+      - 1224 1
+      # Chevron Upgrade
+      - 5874 1
+      # Stargate Iris
+      - 5875 1
+      
+      
   gatebook:
     delay: 86400
     items:
@@ -508,7 +530,7 @@ currency-symbol: '$'
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
-max-money: 10000000000000
+max-money: 100000000
 
 # Set the minimum amount of money a player can have (must be above the negative of max-money).
 # Setting this to 0, will disable overdrafts/loans completely.  Users need 'essentials.eco.loan' perm to go below 0.

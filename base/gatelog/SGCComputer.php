@@ -3,7 +3,7 @@
 $con=mysqli_connect("127.0.0.1","root","S0ulM@t3","stargatemc");
 $count = 1;
 exec("rm /services/stargatemc/gatelog/gates/*");
-$result = mysqli_query($con,"SELECT distinct(world),address from stargatemc.gates where world NOT LIKE '%-homeworld' and world NOT LIKE 'Earth' GROUP BY world LIMIT 16;");
+$result = mysqli_query($con,"SELECT distinct(world),address from stargatemc.gates where world NOT LIKE '%-homeworld%' and world NOT LIKE 'Earth' GROUP BY world LIMIT 16;");
 while($row = $result->fetch_assoc())
 {
 file_put_contents("/services/stargatemc/gatelog/gates/" . $count,"{");
