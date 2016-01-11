@@ -253,12 +253,10 @@ kits:
       - 6798 1
       # Iron Pick Axe
       - 257 1
-      # 8x Naquadah Cable (Mk. 1)
-      - 1756:1706 8
-      # 1x Naquadah Reactor (Mk. 1)
-      - 1756:1190 1
-      # 2x Enriched Naquadah Rods
-      - 6838:26326 3
+      # 4x advanced Solar Gen.
+      - 1337:5 4
+      # 16x Ultimate Energy Cube
+      - 6006:3
       # MFE (Empty)
       - 200:1 1
       # 10x Steak
