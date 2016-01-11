@@ -54,7 +54,7 @@ commands:
   groups:
     default:
       /spawn:
-        cooldown: 900
+        cooldown: 3600
         warmup: 10
       /jump:
         cooldown: 10
@@ -63,13 +63,13 @@ commands:
         cooldown: 10
         warmup: 3
       /town spawn:
-        cooldown: 900
+        cooldown: 3600
         warmup: 10
       /town spawn *:
-        cooldown: 3600
+        cooldown: 10800
         warmup: 10
       /town outpost *:
-        cooldown: 3600
+        cooldown: 10800
         warmup: 10
   aliases:
     /town outpost: /town outpost 1
