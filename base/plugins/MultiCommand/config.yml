@@ -38,15 +38,10 @@ Commands:
   - '[1]/dynmap pause all'
   - '[1]/dmap worldset $1-homeworld-$2 enabled:false'
   - '[1]/dynmap pause none'
-  - '[1]/top $1'
-  - '[3]/top $1'
   
   GOTO_HOMEWORLD:
   - /mw load $1-homeworld-$2
   - '[2]/mw move $1 $1-homeworld-$2'
-  - '[3]/top $1'
-  - '[3]/top $1'
-  - '[3]/top $1'
   TUTORIAL_CHAT_JOIN:
   - /tell $1 To join or leave a chat channel is relatively simple.
   - '[2]/tell $1 You can type §4/ch join §6<name>§b to join a channel...'
