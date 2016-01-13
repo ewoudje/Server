@@ -110,7 +110,7 @@
   "homesTeleportIgnoreEnemiesIfInOwnTerritory": true,
   "homesTeleportToOnDeathActive": false,
   "homesTeleportToOnDeathPriority": "NORMAL",
-  "permanentFactionsDisableLeaderPromotion": false,
+  "permanentFactionsDisableLeaderPromotion": true,
   "actionDeniedPainAmount": 5.0,
   "disablePVPForFactionlessPlayers": false,
   "enablePVPAgainstFactionlessInAttackersLand": true,
