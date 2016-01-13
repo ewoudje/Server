@@ -253,10 +253,10 @@ kits:
       - 6798 1
       # Iron Pick Axe
       - 257 1
-      # 4x advanced Solar Gen.
-      - 1337:5 4
+      # 1x Ultimate Hybrid Solar
+      - 231:2 1
       # 16x Ultimate Energy Cable
-      - 6006:3 16
+      - 4195:9 16
       # MFE (Empty)
       - 200:1 1
       # 10x Steak
