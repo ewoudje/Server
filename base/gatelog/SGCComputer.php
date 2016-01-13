@@ -12,7 +12,7 @@ file_put_contents("/services/stargatemc/gatelog/gates/" . $count,"  address = \"
 file_put_contents("/services/stargatemc/gatelog/gates/" . $count,"}",FILE_APPEND);
 $count++;
 }
-exec("cp /services/stargatemc/P2Y-321/computer/51/history /services/stargatemc/gatelog/gates/");
-exec("rm /services/stargatemc/P2Y-321/computer/51/*");
-exec("cp /services/stargatemc/gatelog/gates/* /services/stargatemc/P2Y-321/computer/51/");
-exec("cp /services/stargatemc/gatelog/computercraft/* /services/stargatemc/P2Y-321/computer/51/");
+exec("cp /services/stargatemc/P2Y-321/computer/25/history /services/stargatemc/gatelog/gates/");
+exec("rm /services/stargatemc/P2Y-321/computer/25/*");
+exec("cp /services/stargatemc/gatelog/gates/* /services/stargatemc/P2Y-321/computer/25/");
+exec("cp /services/stargatemc/gatelog/computercraft/* /services/stargatemc/P2Y-321/computer/25/");
