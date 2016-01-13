@@ -6,7 +6,7 @@
   "taskPlayerDataRemoveMinutes": 5.0,
   "taskEconLandRewardMinutes": 60.0,
   "removePlayerDataWhenBanned": false,
-  "removePlayerDataAfterInactiveDays": 365.0,
+  "removePlayerDataAfterInactiveDays": 90.0,
   "radiusClaimFailureLimit": 9,
   "radiusClaimRadiusLimit": 5,
   "chatSetFormat": true,
