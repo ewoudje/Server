@@ -1,0 +1,104 @@
+text:
+    CanDoPrefix: 'You can: '
+    CanDoNextPrefix: 'Next, you can '
+    CannotDoPrefix: 'Restricted: '
+    DefaultRestrictedMessage: 'You cannot do that'
+#########################################
+#
+# Describes how XP and ItemLevels relate
+# e.g. if you have a rule that restricts using something
+# until level 5, but don't want player to lose
+# that ability if they die, use itemLevel.min instead of XP.min
+# and set levelDescresesItemLevel: false
+#
+#########################################
+XP:
+    itemLevelDefaultsToXPLevel: true
+    levelIncreasesItemLevel: true
+    levelDecreasesItemLevel: true
+#########################################
+#
+# Aliases are a shorthand method for
+# referring to a list of itemids. Instead
+# of entering each itemid you want applied
+# to each rule, create an alias here and
+# use instead of the item id.
+#
+#########################################
+aliases:
+    woodenEquipment: [268, 269, 270, 271, 290]
+    ironEquipment: [256, 257, 258, 267, 292]
+    stoneEquipment: [272, 273, 274, 275, 291]
+    goldEquipment: [283, 284, 285, 286, 294]
+    diamondEquipment: [276, 277, 278, 279, 293]
+    miscWeapons: [261, 262]
+#########################################
+#
+# rules are automatically processed and applied
+# at various points in the game. This is the core
+# of the mod where you define each restriction
+#
+#########################################
+rules:
+    woodenStuff:
+        description: 'use of wooden equipment after level 2' 
+        messages:
+            restricted: 'You cannot %s %s after level 2'
+        actions: [USE, CRAFT, PICKUP]
+        xp:
+            max: 2
+        items:
+            restrict: ['woodenEquipment']
+    stoneEquipment:
+        description: 'use of stone equipment until level 1.' 
+        messages:
+            restricted: 'You cannot %s %s until level 1'
+        actions: [USE, CRAFT, PICKUP]
+        xp:
+            min: 1
+        items:
+            restrict: ['stoneEquipment']
+    ironEquipment:
+        description: 'Use of iron equipment until level 2' 
+        messages:
+            restricted: 'You cannot %s %s until level 2'
+        actions: [USE, BREAK, PICKUP]
+        xp:
+            min: 2
+        items:
+            restrict: ['ironEquipment']
+    goldEquipment:
+        description: 'use of gold equipment until level 3' 
+        messages:
+            restricted: 'You cannot %s %s until level 3'
+        xp:
+            min: 3
+        actions: [USE, PLACE, PICKUP]
+        items:
+            restrict: ['goldEquipment']
+    diamondEquipment:
+        description: 'use of diamond equipment until level 4' 
+        messages:
+            restricted: 'You cannot %s %s until level 4'
+        xp:
+            min: 4
+        actions: [USE, PLACE, PICKUP]
+        items:
+            restrict: ['diamondEquipment']
+#########################################
+#
+# Manualrules are not automatically applied
+# to players. they are added via API's
+# or via areaRules below.
+#
+#########################################
+manualRules:
+#########################################
+#
+# An area rule is a zone where manual rules
+# are applied/removed from a player when they
+# enter/exit an area. 
+#
+#########################################
+areaRules:
+            
