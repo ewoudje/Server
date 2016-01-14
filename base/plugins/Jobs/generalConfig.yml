@@ -28,7 +28,7 @@ broadcast-on-skill-up: true
 broadcast-on-level-up: true
 # Maximum number of jobs a player can join.
 # Use 0 for no maximum
-max-jobs: 3
+max-jobs: 1
 # Hide jobs from player if they lack the permission to join the job
 hide-jobs-without-permission: false
 # Option to allow payment to be made when killing mobs from a spawner
@@ -130,4 +130,4 @@ Sounds:
 # McMMO abilities
 McMMO:
   # Wont pay if player have TreeFiller abillity activated, prevents from posible exploiting with high treefiller level and big trees
-  DontPayWithTreeFellerOn: false
+  DontPayWithTreeFellerOn: true
