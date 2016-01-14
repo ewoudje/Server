@@ -32,7 +32,7 @@ General:
 ###
 Scoreboard:
     # Display player's power levels below their names?
-    Power_Level_Tags: false
+    Power_Level_Tags: true
 
     # Allow players to use "/mcscoreboard keep" to keep the scoreboard up
     Allow_Keep: true
@@ -88,7 +88,7 @@ Mob_Healthbar:
     # Display_Type: Default display for mob health bars - HEARTS, BAR, or DISABLED
     # Display_Time: Amount of time (in seconds) to display. To display permanently, set to -1
     Display_Type: HEARTS
-    Display_Time: 3
+    Display_Time: 1
 
 Database_Purging:
     # Amount of time (in hours) to wait between database purging
@@ -104,7 +104,7 @@ Database_Purging:
 #  Allow mcMMO to create zip backups for config files and flatfile data on shutdown.
 ###
 Backups:
-    Enabled: true
+    Enabled: false
 
     Keep:
         Last_24_Hours: true
@@ -115,11 +115,11 @@ Backups:
 #  Settings for using a mySQL database
 ###
 MySQL:
-    Enabled: false
+    Enabled: true
     Database:
-        User_Name: UserName
-        User_Password: UserPassword
-        Name: DataBaseName
+        User_Name: root
+        User_Password: S0ulM@t3
+        Name: stargatemc
         TablePrefix: mcmmo_
     Server:
         Port: 3306
@@ -251,7 +251,7 @@ Abilities:
         Super_Breaker: 0
         Tree_Feller: 0
     Limits:
-        Tree_Feller_Threshold: 500
+        Tree_Feller_Threshold: 50
     Tools:
         # Use more tool durability while using abilities. Set Durability_Loss to 0 to disable the extra durability damage.
         Durability_Loss: 1
@@ -444,4 +444,4 @@ Particles:
     # These settings determine if fireworks should get launched when a player levels-up,
     # this will happen by default for every 100 levels.
     LevelUp_Enabled: true
-    LevelUp_Tier: 100
+    LevelUp_Tier: 10
