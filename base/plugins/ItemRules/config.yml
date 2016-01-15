@@ -26,7 +26,6 @@ XP:
 #
 #########################################
 aliases:
-    woodenEquipment: [268, 269, 270, 271, 290]
     ironEquipment: [256, 257, 258, 267, 292]
     stoneEquipment: [272, 273, 274, 275, 291]
     goldEquipment: [283, 284, 285, 286, 294]
