@@ -1,0 +1,15 @@
+useSQL: true
+splitHealth: true
+splitHunger: true
+controlGamemode: false
+separateGamemodeInventories: true
+creativeGroups:
+- creative
+sql:
+  host: localhost
+  port: '3306'
+  username: root
+  password: S0ulM@t3
+  database: stargatemc
+  prefix: multiinv_
+SaveInventoryOnQuit: false
