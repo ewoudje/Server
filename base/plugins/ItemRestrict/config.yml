@@ -39,6 +39,7 @@ Bans:
    - 5666
    - 5668
    - 5669
+   - 5480
   World:
 Messages:
   labels:
@@ -57,6 +58,7 @@ Messages:
      5666: Tunnel Bore
      5668: Tunnel Bore
      5669: Tunnel Bore
+     5480: Relocator
   reasons:
      1190: StargateTech2 stargates are not permitted within StargateMC, please use SGCraft gates instead.
      120: The End is disabled in StargateMC, along with End Portals.
@@ -73,6 +75,7 @@ Messages:
      5666: Tunnel bores can bypass grief prevention and are banned.
      5668: Tunnel bores can bypass grief prevention and are banned.
      5669: Tunnel bores can bypass grief prevention and are banned.
+     5480: Use Stargates for all travel, teleporting does not fit with StargateMC Universe RP.
      
      
      
