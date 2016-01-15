@@ -98,7 +98,7 @@
   "factionNameForceUpperCase": true,
   "claimsMustBeConnected": false,
   "claimingFromOthersAllowed": true,
-  "claimsCanBeUnconnectedIfOwnedByOtherFaction": false,
+  "claimsCanBeUnconnectedIfOwnedByOtherFaction": true,
   "claimsRequireMinFactionMembers": 1,
   "claimedLandsMax": 1000,
   "homesEnabled": false,
