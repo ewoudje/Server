@@ -42,6 +42,13 @@ Commands:
   GOTO_HOMEWORLD:
   - /mw load $1-homeworld-$2
   - '[2]/mw move $1 $1-homeworld-$2'
+  - '[1]/tell $1 You are being held in place for several seconds to prevent falling into the void while the world loads. Position unlock in: 3'
+  - '[2]/mw move $1 $1-homeworld-$2'
+  - '[1]/tell $1 You are being held in place for several seconds to prevent falling into the void while the world loads. Position unlock in: 2'
+  - '[2]/mw move $1 $1-homeworld-$2'
+  - '[1]/tell $1 You are being held in place for several seconds to prevent falling into the void while the world loads. Position unlock in: 1'
+  - '[2]/mw move $1 $1-homeworld-$2'
+  - '[1]/tell $1 You are now free to move around!'
   TUTORIAL_CHAT_JOIN:
   - /tell $1 To join or leave a chat channel is relatively simple.
   - '[2]/tell $1 You can type §4/ch join §6<name>§b to join a channel...'
