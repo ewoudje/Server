@@ -58,7 +58,7 @@ logging:
   detailed-logging: false
   dump-heap-on-deadlock: false
 settings:
-  load-chunk-on-forge-tick: false
+  load-chunk-on-forge-tick: true
   check-entity-max-speeds: false
   check-entity-bounding-boxes: true
   load-chunk-on-request: true
