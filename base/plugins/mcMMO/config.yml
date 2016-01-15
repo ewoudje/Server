@@ -131,22 +131,22 @@ MySQL:
 ###
 Hardcore:
     Death_Stat_Loss:
-        Penalty_Percentage: 75.0
+        Penalty_Percentage: 5.0
         Level_Threshold: 0
         Enabled:
-            Acrobatics: false
-            Alchemy: false
-            Archery: false
-            Axes: false
-            Excavation: false
-            Fishing: false
-            Herbalism: false
-            Mining: false
-            Repair: false
-            Swords: false
-            Taming: false
-            Unarmed: false
-            Woodcutting: false
+            Acrobatics: true
+            Alchemy: true
+            Archery: true
+            Axes: true
+            Excavation: true
+            Fishing: true
+            Herbalism: true
+            Mining: true
+            Repair: true
+            Swords: true
+            Taming: true
+            Unarmed: true
+            Woodcutting: true
     Vampirism:
         Leech_Percentage: 5.0
         Level_Threshold: 0
@@ -216,10 +216,10 @@ Party:
         # Uses the regular XP formula but is multiplied by <amount of party members> + <Xp_Curve_Modifier>
         Xp_Curve_Modifier: 3
         Near_Members_Needed: false
-        Inform_All_Party_Members_On_LevelUp: false
+        Inform_All_Party_Members_On_LevelUp: true
 
         Chat_UnlockLevel: 1
-        Teleport_UnlockLevel: 10
+        Teleport_UnlockLevel: 11
         Alliance_UnlockLevel: 5
         ItemShare_UnlockLevel: 8
         XpShare_UnlockLevel: 10
