@@ -169,10 +169,10 @@ Hardcore:
 #  Settings for SMP Mods
 ###
 Mods:
-    Tool_Mods_Enabled: false
-    Armor_Mods_Enabled: false
-    Block_Mods_Enabled: false
-    Entity_Mods_Enabled: false
+    Tool_Mods_Enabled: true
+    Armor_Mods_Enabled: true
+    Block_Mods_Enabled: true
+    Entity_Mods_Enabled: true
 
 #
 #  Settings for mcMMO items
@@ -219,7 +219,7 @@ Party:
         Inform_All_Party_Members_On_LevelUp: false
 
         Chat_UnlockLevel: 1
-        Teleport_UnlockLevel: 2
+        Teleport_UnlockLevel: 10
         Alliance_UnlockLevel: 5
         ItemShare_UnlockLevel: 8
         XpShare_UnlockLevel: 10
@@ -242,16 +242,16 @@ Abilities:
         Super_Breaker: 240
         Tree_Feller: 240
     Max_Seconds:
-        Berserk: 0
-        Blast_Mining: 0
-        Giga_Drill_Breaker: 0
-        Green_Terra: 0
-        Serrated_Strikes: 0
-        Skull_Splitter: 0
-        Super_Breaker: 0
-        Tree_Feller: 0
+        Berserk: 5
+        Blast_Mining: 5
+        Giga_Drill_Breaker: 5
+        Green_Terra: 5
+        Serrated_Strikes: 5
+        Skull_Splitter: 5
+        Super_Breaker: 5
+        Tree_Feller: 5
     Limits:
-        Tree_Feller_Threshold: 50
+        Tree_Feller_Threshold: 75
     Tools:
         # Use more tool durability while using abilities. Set Durability_Loss to 0 to disable the extra durability damage.
         Durability_Loss: 1
@@ -269,37 +269,37 @@ Skills:
         Prevent_Dodge_Lightning: false
         # Prevent earning Acrobatics XP a few seconds after teleporting
         XP_After_Teleport_Cooldown: 5
-        Level_Cap: 0
+        Level_Cap: 100
     Alchemy:
         # Allow Hoppers to transfer ingredients and brew Rank 1 Alchemy potions
         Enabled_for_Hoppers: true
         # Prevent Hoppers from transferring ingredients into Brewing Stands
         Prevent_Hopper_Transfer: false
-        Level_Cap: 0
+        Level_Cap: 100
     Archery:
         Enabled_For_PVP: true
         Enabled_For_PVE: true
-        Level_Cap: 0
+        Level_Cap: 100
     Axes:
         Enabled_For_PVP: true
         Enabled_For_PVE: true
-        Level_Cap: 0
+        Level_Cap: 100
     Excavation:
-        Level_Cap: 0
+        Level_Cap: 100
     Fishing:
-        Level_Cap: 0
+        Level_Cap: 100
         Drops_Enabled: true
         Override_Vanilla_Treasures: true
         # Always catch fish, even when treasure is found
         Extra_Fish: false
     Herbalism:
-        Level_Cap: 0
+        Level_Cap: 100
         Prevent_AFK_Leveling: true
     Mining:
-        Level_Cap: 0
+        Level_Cap: 100
         Detonator_Name: FLINT_AND_STEEL
     Repair:
-        Level_Cap: 0
+        Level_Cap: 100
         Anvil_Messages: true
         Anvil_Placed_Sounds: true
         Anvil_Use_Sounds: true
@@ -310,15 +310,15 @@ Skills:
         # Ask for a confirmation when a player tries to repair an enchanted item
         Confirm_Required: true
     Smelting:
-        Level_Cap: 0
+        Level_Cap: 100
     Swords:
         Enabled_For_PVP: true
         Enabled_For_PVE: true
-        Level_Cap: 0
+        Level_Cap: 100
     Taming:
         Enabled_For_PVP: true
         Enabled_For_PVE: true
-        Level_Cap: 0
+        Level_Cap: 100
         Call_Of_The_Wild:
             # Item_Material: Material of the item needed to summon the pet
             # Item_Amount: Amount of items required to summon the pet
@@ -341,12 +341,12 @@ Skills:
     Unarmed:
         Enabled_For_PVP: true
         Enabled_For_PVE: true
-        Level_Cap: 0
+        Level_Cap: 100
         Block_Cracker:
             SmoothBrick_To_CrackedBrick: true
     Woodcutting:
         Tree_Feller_Sounds: true
-        Level_Cap: 0
+        Level_Cap: 100
 
 #
 #  Settings for Double Drops
