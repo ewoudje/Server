@@ -15,7 +15,7 @@ text:
 XP:
     itemLevelDefaultsToXPLevel: true
     levelIncreasesItemLevel: true
-    levelDecreasesItemLevel: true
+    levelDecreasesItemLevel: false
 #########################################
 #
 # Aliases are a shorthand method for
@@ -40,15 +40,6 @@ aliases:
 #
 #########################################
 rules:
-    woodenStuff:
-        description: 'use of wooden equipment after level 2' 
-        messages:
-            restricted: 'You cannot %s %s after level 2'
-        actions: [USE, CRAFT, PICKUP]
-        xp:
-            max: 2
-        items:
-            restrict: ['woodenEquipment']
     stoneEquipment:
         description: 'use of stone equipment until level 1.' 
         messages:
@@ -84,7 +75,17 @@ rules:
             min: 4
         actions: [USE, PLACE, PICKUP]
         items:
-            restrict: ['diamondEquipment']
+            restrict: 
+    Woodcutting-Brichwood:
+        messages:
+           restricted: 'You cant cut birch until woodcutting 2'
+        actions: [BREAK]
+        mcmmo:
+            skills:
+                woodcutting: 2
+        items:
+           restrict: ['17.2']
+            
 #########################################
 #
 # Manualrules are not automatically applied
