@@ -24,7 +24,7 @@ limits:
     expire_time: 129600
     queue_trade_time: 0
     queue_mail_time: 0
-    allow_creative: true
+    allow_creative: false
     max_mail: 0
 queue:
   queue_mail_on_buy: true
