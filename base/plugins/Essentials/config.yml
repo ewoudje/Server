@@ -251,8 +251,10 @@ kits:
       - 6800 1
       # 1x Zat Ammo
       - 6798 1
-      # Iron Pick Axe
-      - 257 1
+      # Wood Pick Axe
+      - 270 3
+      # Wooden Hatchet
+      - 271 3
       # 1x Ultimate Hybrid Solar
       - 231:2 1
       # 16x Glass Fibre
