@@ -285,6 +285,10 @@ kits:
     delay: 86400
     items:
       - 387 1 title:&4Seeded_Stargates author:Daniel_Jackson lore:Known_Stargates book:gates
+  marketeerbook:
+    delay: 0
+    items:
+      - 387 1 title:&4Markteers_Ledger author:Head_Jaffa_Marketeer lore:Coded_Ledger book:marketeer
   rulebook:
     delay: 86400
     items:
