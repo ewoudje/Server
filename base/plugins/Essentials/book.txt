@@ -6,6 +6,9 @@ Place content in here that you would like to be used by books ingame.
 
 You can use this content by using the book:<section> meta option in kits or item spawning.
 
+#marketeer
+This book is written in code and barely legible to you.
+
 #gates
 
 &3&lEarth&r
