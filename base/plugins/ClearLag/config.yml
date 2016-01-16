@@ -168,12 +168,11 @@ spawn-limiter:
   
 #Meters your TPS, if it goes to low, run the commands you wrote below!
 tps-meter:
-  enabled: false
+  enabled: true
   interval: 15
-  tps-trigger: 14.0
+  tps-trigger: 10.0
   commands:
-    - 'lagg killmobs'
-    - 'lagg clear'
+    - 'broadcast TPS has dropped to under 10. This incident has been logged for admins to review.'
   
 #This is /lagg killmobs, put what you DON'T want removed! 
 # -- 'remove-named', when FALSE entities with custom names will NOT be removed
