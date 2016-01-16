@@ -1,8 +1,15 @@
-spawns: 
-  newbies: 
+spawns:
+  newbies:
     world: Earth
     x: -125.33098990453286
     y: 14.0
     z: -596.5531228563184
     yaw: 2.5499368
     pitch: 19.649998
+  default:
+    world: Earth
+    x: -126.0
+    y: 14.0
+    z: -597.0
+    yaw: 0.0
+    pitch: 0.0
