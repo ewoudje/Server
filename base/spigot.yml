@@ -77,7 +77,7 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 8
     random-light-updates: false
-    save-structure-info: true
+    save-structure-info: false
     max-bulk-chunks: 5
     max-entity-collisions: 8
     max-tick-time:
