@@ -7,7 +7,7 @@ maxDeaths: 0
 allowTeamKilling: false
 countMobKills: true
 rewardBasedOnXp: true
-maxWave: 50
+maxWave: 100
 cashReward: 10000
 maxPlayers: 3
 minPlayers: 1
