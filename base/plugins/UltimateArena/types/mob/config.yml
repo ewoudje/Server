@@ -7,8 +7,10 @@ maxDeaths: 0
 allowTeamKilling: false
 countMobKills: true
 rewardBasedOnXp: true
-maxWave: 15
-cashReward: 750
+maxWave: 50
+cashReward: 10000
+maxPlayers: 3
+minPlayers: 1
 scaledRewards:
   - "GOLD_INGOT, 500"
   - "SLIME_BALL, 550"
