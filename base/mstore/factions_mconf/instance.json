@@ -45,7 +45,7 @@
   "prefixRecruit": "Recruit ",
   "playersWhoBypassAllProtection": [],
   "worldsNoClaiming":  [] ,
-  "worldsNoPowerLoss": [ "Earth","Lantea","Celestis","Rebirth","Destiny","Alkesh_Arena","Hatak_Arena" ],
+  "worldsNoPowerLoss": [ "Mob_Arena","Earth","Lantea","Celestis","Rebirth","Destiny","Alkesh_Arena","Hatak_Arena" ],
   "worldsIgnorePvP": [ "MidwayStation" ],
   "handleExploitObsidianGenerators": true,
   "handleExploitEnderPearlClipping": true,
